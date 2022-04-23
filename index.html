@@ -1,0 +1,216 @@
+<!DOCTYPE html> <!--Documento tipo HTML5-->
+<html lang="en"> <!--Inicio del documento-->
+<head> <!--Parte privada del documento-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Evermore</title> <!--Nombre de la página que aparece en la pestaña del navegador-->
+    <link rel="shortcut icon" href="../imagenes/logo .png">
+    <link rel="stylesheet" href="css/archivos.css"/>
+
+    <!--Font Awesome - Iconos+-->
+    <script src="https://kit.fontawesome.com/1aa0773679.js" crossorigin="anonymous"></script>
+</head>
+<body> 
+    <!--Parte visible del documento-->
+    <!--Se han agregado solo unas pocas imágenes para mayor comprensión del wireframe-->
+    <header class="header">
+        <div>
+           <a class="nav__enlace" href="../index.html">
+                <img src="../imagenes/logo .png" class="header__logo" />
+            </a>
+            <a class="nav__enlace" href="../index.html">
+                <img src="../imagenes/evermore.png" class="header__name" />
+            </a>   
+       </div>
+
+       <div class="header__icon">
+            <i class="fas-fa-bars"></i>
+        </div>
+       
+
+       <nav class="header__nav">
+           
+           <!--Barra de Navegación-->
+            <ul>
+                <li class="nav__item">
+                    <a class="nav__enlace" href="index.html">Inicio</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__enlace" href="../pages/cafeteria.html">Cafetería</a>
+                </li>
+                <li class="nav__item"> 
+                    <a class="nav__enlace" href="../pages/libreria.html">Librería</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__enlace" href="../pages/preguntas-frecuentes.html">Preguntas Frecuentes</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__enlace" href="../pages/mi-cuenta.html" >Mi cuenta</a>
+                </li>
+            </ul>
+            <!--Buscar producto-->
+            
+            <form>
+                
+                <label for="texto"></label>
+                <input type="texto" id="texto" placeholder="Buscar" class="--Buscar"> 
+           </form>
+           
+       </nav>
+
+    </header>
+
+    <main> <!--Ejemplo del contenido de este apartado-->
+        <!--Sección 1 - banner-->
+        <section class="section">
+            <div class="banner">
+                <h1><i>Recientes adquisiciones...</i></h1>
+                <img src="../imagenes/TRILOGÍA2 .png" class="banner__imagen" class="zoom-banner" />
+            </div>
+          
+        </section>
+        <!--Sección 2 - pregunta -->
+        <section>
+            <div>
+                <h2>¿Qué es <i>evermore</i>?</h2>
+            </div>
+        </section>
+        <!--Sección 3-->
+        <section class="div__flex">
+            <div >
+                <h3 class="flex__name">Comunidad para amantes del <br>café y de un buen libro</h3>
+                <p class="flex__texto">Evermore es un espacio físico dedicado para las personas amantes de una buena lectura, acompañada por un rico café. Ambientado perfectamente para relajarse y disfrutar con amigos o por sí mismos. Iniciando sesión, ya sea desde el sitio web o la aplicación, se puede ordenar tanto comida como reservar un libro con atenlación.</p>
+                <a class="nav__enlace" href="../pages/mi-cuenta.html">
+                    <input  type="submit" class="flex__submit-one" value="Iniciar Sesión" class="submit-preguntas-color">
+                </a>
+            </div>
+            <div >
+                <h3 class="flex__name">Cafetería</h3>
+                <p class="flex__texto">Nuestra cafetería posee una amplia variedad de bebidads, bocadillos y postres. Cuenta con variedades veganas, sin T.A.C.C., entre otras variedades.</p>
+                <a class="nav__enlace" href="../pages/cafeteria.html">
+                    <input  type="submit" class="flex__submit-two" value="Comprar" class="submit-preguntas-color">
+                </a>
+            </div>
+            <div >
+                <h3 class="flex__name">Librería</h3>
+                <p class="flex__texto">Nuestra librería cuenta con libros en físico (ya sea para su compra o lectura dentro del local), en formato ebook y en audiolibros.</p>
+                <a class="nav__enlace" href="../pages/libreria.html">
+                    <input  type="submit" class="flex__submit-three" value="Comprar" class="submit-preguntas-color">
+                </a>
+            </div>
+        </section>
+        <!--Sección 4 - Productos de la cafetería -->
+        <section>
+            <div class="cafeteria">
+                <img src="../imagenes/logo  (1).png" class="cafeteria__name">
+                <img src="../imagenes/vinilo-taza-cafe-color.jpg" class="cafeteria__cafe">
+            </div>
+            <div class="coffee">
+                <img class="img_coffee" class="coffee__hijo coffee__hijo--1" src="../imagenes/cappuccino_PNG41.png"  class="zoom-extra" alt="coffee-1" />
+                <img class="img_coffee" class="coffee__hijo coffee__hijo--2" src="../imagenes/original.png"  class="zoom-extra" alt="coffee-2"/>
+                <img class="img_coffee" class="coffee__hijo coffee__hijo--3" src="../imagenes/Sweet-Iced-Coffee-PNG-Image-Background.png"  class="zoom-extra" alt="coffee-3" />
+                <img class="img_coffee" class="coffee__hijo coffee__hijo--4" src="../imagenes/r0o8msm3ecpvqsvhve3l.png" class="zoom-extra" alt="coffee-4" />
+
+            </div>
+            <div class="texts-two">
+                <p> <b>Cappuccino </b> <br>$150</p>
+                <p> <b>Café de caramelo </b><br>$180</p>
+                <p> <b>Café Helado </b><br>$180</p>
+                <p> <b>Torta de chocolate</b><br> $260</p>
+
+            </div>
+            <div class="coffee">
+                <img class="img_coffee-1" class="coffee__hijo coffee__hijo--5" src="../imagenes/cupcake-de-chocolate.png"  class="zoom-extra" alt="coffee-5"/>
+                <img class="img_coffee-1" class="coffee__hijo coffee__hijo--6" src="../imagenes/be3316b7049f47fa6f032c85ba2ec8d1.png"  class="zoom-extra" alt="coffee-6"/>
+                <img class="img_coffee" class="coffee__hijo coffee__hijo--7" src="../imagenes/paqueques.png"  class="zoom-extra" alt="coffee-7"/>
+                <img class="img_coffee_2" class="coffee__hijo coffee__hijo--8" src="../imagenes/cupcake-de-vainilla.png" class="zoom-extra" alt="coffee-8" />
+              
+            </div>
+            <div class="texts-two">
+                <p> <b>Cupcake de chocolate </b><br> $30</p>
+                <p> <b>Cheescake de frutilla </b><br> $150</p>
+                <p> <b>Panqueques </b><br> $200</p>
+                <p> <b>Cupcake de vainilla </b><br> $30</p>
+                
+            </div>
+            <div class="submit">
+                <a class="nav__enlace" href="../pages/cafeteria.html">
+                    <input type="submit" value="Ver más" class="submit-preguntas-color">
+                </a>
+            </div>
+        </section>
+        <!--Sección 5 - Productos de la librería -->
+        <section>
+            <div class="libreria">
+                <img src="../imagenes/logo  (2).png" class="libreria__name">
+                <img src="../imagenes/580b585b2edbce24c47b276e.png" class="libreria__libro">
+            </div>
+            <div class="books">
+                <img class="img_book" class="books__hijo books__hijo--1" src="../imagenes/boulevard-2.png" class="zoom-extra" alt="libro-1" />
+                <img class="img_book" class="books__hijo books__hijo--2" src="../imagenes/orgullo y prejuicio .png"  class="zoom-extra" alt="libro-2" />
+                <img class="img_book" class="books__hijo books__hijo--3" src="../imagenes/supernova.png" class="zoom-extra" alt="libro-3"/>
+                <img class="img_book" class="books__hijo books__hijo--4" src="../imagenes/una-educacion-mortal.png" class="zoom-extra"  alt="libro-4"/>
+            </div>
+            <div class="texts">
+                <p> <b>Boulevard</b> <br> Flor M. Salvador <br> $2.199 </p> 
+                <p> <b>Orgullo y Prejuicio</b> <br> Jane Austen <br> $950 </p>
+                <p> <b>Supernova</b> <br> Marissa Meyer <br> $1200</p>
+                <p> <b>Una Educación Mortal</b> <br> Naomi Novik <br> $1000</p>
+            </div>
+            <div class="submit">
+                <a class="nav__enlace" href="../pages/libreria.html">
+                    <input type="submit" value="Ver más" class="submit-preguntas-color">
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer> 
+        <!--Pie de Página-->
+        <div class="footer">
+            <img src="../imagenes/evermore.png" class="footer__name">
+            <img src="../imagenes/logo .png" class="logo">
+        </div>
+        <div class="items">
+              <h3 class="h3">Explora</h3>
+              <dt>
+                <dd class="item-one">
+                    <a href="../pages/cafeteria.html" class="footer__nav">Cafetería</a>
+                </dd>
+                <dd class="item-one">
+                    <a href="../pages/libreria.html" class="footer__nav">Librería</a>
+                </dd>
+                <dd class="item-one">
+                    <a href="../pages/preguntas-frecuentes.html" class="footer__nav">Preguntas Frecuentes</a>
+                </dd>
+                <dd class="item-one">
+                    <a href="../pages/mi-cuenta.html" class="footer__nav">Mi cuenta</a>
+                </dd>
+              </dt>
+       </div> 
+       <div class="items">
+            <h3 class="h3__one">Contacto</h3>
+            <!--Rutas externas-->
+                <dt class="items">
+                <dd class="item-two">
+                    <a target="_blank" href="https://mail.google.com/mail/u/0/?pli=1" class="footer__nav">Email</a>
+                </dd>
+                <dd class="item-two">
+                    <a target="_blank" href="https://twitter.com/home" class="footer__nav">Twitter</a>
+                </dd>
+                <dd class="item-two">
+                    <a target="_blank" href="https://www.instagram.com/?hl=es-la" class="footer__nav">Instagram</a>
+                </dd>
+                <dd class="item-two">
+                    <a target="_blank" href="https://web.whatsapp.com/" class="footer__nav">WhatsApp</a>
+                </dd>
+            </dt>
+       </div>
+       <div class="copyright">
+            &copy; 2022 evermore 
+       </div>
+        
+    </footer>
+</body>
+
+</html> <!--Fin del documento-->

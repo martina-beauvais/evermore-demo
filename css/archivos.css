@@ -11,7 +11,7 @@ font-family: 'BIZ UDPMincho', serif;
     height: 70px;
     justify-content: space-between;
 
-    background-color: #CEAB93; 
+    background-image: linear-gradient(#AD8B73, #CEAB93, #E3CAA5); 
     display: flex;
     flex-direction: row;
     padding: top;
@@ -26,7 +26,6 @@ font-family: 'BIZ UDPMincho', serif;
 .header__logo{    
     height: 60px;
     width: 60px;
-    background-color: #CEAB93;
     display: inline;
     margin-bottom: 10px;
 }
@@ -34,7 +33,6 @@ font-family: 'BIZ UDPMincho', serif;
 .header__name{
     height: 50px;
     width: 150px;
-    background-color: #CEAB93;
 }
 
 .header__icon, fas fa-bars{
@@ -57,8 +55,8 @@ ul{
     justify-content:space-around;
     padding: 5px;
     align-items: flex-end;
-    font-family: 'BIZ UDPMincho', serif;
-    font-size: 18px;
+    font-family: 'BIZ UDGothic', sans-serif;
+    font-size: 20px;
 }
 
 .nav__enlace{
@@ -95,8 +93,6 @@ main{
     padding-left: 330px;
     margin-bottom: 50px;
 }
-
-
 
 .zoom{
     transition: transform .3s;
@@ -600,7 +596,7 @@ dt{
     .header{
         height: 60px;
     
-        background-color: #CEAB93; 
+        background-image: linear-gradient(#AD8B73, #CEAB93, #E3CAA5); 
         display: flex;
         flex-direction: row;
         padding: top;
@@ -614,7 +610,6 @@ dt{
         padding-top: 10px;
         height: 50px;
         width: 50px;
-        background-color: #CEAB93;
         display: inline;
         margin-bottom: 5px;
     }
@@ -622,7 +617,6 @@ dt{
     .header__name{
         height: 40px;
         width: 125px;
-        background-color: #CEAB93;
     }
     .header__nav{
         display: flex;
@@ -982,7 +976,7 @@ dt{
     .header{
         height: 60px;
     
-        background-color: #CEAB93; 
+        background-image: linear-gradient(#AD8B73, #CEAB93, #E3CAA5); 
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
@@ -996,7 +990,6 @@ dt{
         padding-top: 10px;
         height: 43px;
         width: 43px;
-        background-color: #CEAB93;
         display: inline;
         margin-bottom: 10px;
     }
@@ -1004,7 +997,6 @@ dt{
     .header__name{
         height: 37px;
         width: 140px;
-        background-color: #CEAB93;
         margin-bottom: 5px;
     }
 

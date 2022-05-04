@@ -5,7 +5,7 @@ box-sizing: border-box;
 font-family: 'BIZ UDPMincho', serif;
 }
 
-/*Sección de HEADER*/
+/*HEADER SECTION*/
 .header{ 
     position: fixed;
     width: 1349px;
@@ -48,13 +48,12 @@ ul{
     
 }
 
-/*Cierra Sección de HEADER*/
-
-/*Sección de BODY*/
+/*BODY SECTION */
 
 main{
     background-color: #FFFBE9;
     width: 1349px;
+    height: auto;
 }
 
 .banner, .h2{
@@ -70,14 +69,19 @@ main{
     margin-bottom: 50px;
 }
 
+.zoom{
+    transform: .2s ease-in-out;
+}
 
+.zoom:hover{
+    transform: scale(1.1);
+}
 
 .h4{
     text-align: center;
     text-decoration: underline;
     margin-bottom: 0px;
 }
-
 
 .card-banner{
     margin-top: 10px;
@@ -164,111 +168,11 @@ main{
     margin-left: 3%;
     margin-right: 30%; 
 }
-.texts-two{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-    margin-right: 40px;
-    margin-left: 4%;
-    justify-content: space-around;
-}
-
-.books{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: center;
-    height: 280px;
-    width: 230px;
-    margin-left: 15%;
-    margin-right: 30%;
-}
-
-.texts{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-    margin-right: 40px;
-    margin-left: 70px;
-    justify-content: space-evenly;
-}
-
-.precios-one{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-    margin-right: 200px;
-    margin-left: 150px;
-    justify-content: space-evenly;
-
-    margin-block: 10px;
-}
-
-.precios-two{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-    margin-right: 150px;
-    margin-left: 150px;
-    justify-content: space-between;
-
-    margin-block: 10px;
-}
 
 p{
     padding-left: 30px;
     text-decoration:solid; 
 }
-.precios{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    text-align: center;
-    margin-right: 40px;
-    margin-left: 50px;
-
-    margin-block: 0px;
-    
-}
-
-/*Sección de Libreria*/
-
-.texts-books{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-    margin-right: 40px;
-    margin-left: 70px;
-    justify-content: space-evenly;
-}
-
-.texts-books-one{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-    margin-right: 40px;
-    margin-left: 70px;
-    justify-content: space-evenly;
-}
-
-.precios-books{
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    text-align: center;
-    margin-right: 40px;
-    margin-left: 50px;    
-    padding-left: 20px;
-}
-
-
 
 .ver-mas{
     display: flex;
@@ -280,9 +184,7 @@ p{
     padding-bottom: 150px;
 }
 
-/*Cierra Sección de BODY*/
-
-/* Sección de FOOTER*/
+/*FOOTER SECTION*/
 
 .footer{
     width: 1349px;
@@ -347,10 +249,7 @@ dt{
     padding-bottom: 10px;
 }
 
-/*Cierra Sección de FOOTER*/
-
-
-/*Sección de Preguntas Frecuentes*/
+/*PREGUNTAS FRECUENTES SECTION*/
 
 .preguntas-frecuentes{
     padding-top: 110px;
@@ -435,8 +334,7 @@ dt{
     margin-left: 620px;
 }
 
-/*Sección de Mi Cuenta*/
-
+/*MI CUENTA SECTION*/
 #mi-cuenta{
     padding-top: 130px;
     padding-bottom: 50px;
@@ -511,667 +409,436 @@ dt{
 
 
 /*Media para dispositivos tablets*/
-@media screen and (max-width:576px) {
+@media (min-width:1200px) and (max-width:1400px){
     .header{
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
-        padding: top;
-        width: 576px;
+        justify-content: space-between;
+        min-width: 1200px;
+        width: 100%;
     }
-    .header__logo{    
-        padding-top: 10px;
-        height: 43px;
-        width: 43px;
-        display: inline;
-        margin-bottom: 10px;
-    }
-    
-    .header__name{
-        height: 37px;
-        width: 140px;
-        margin-bottom: 5px;
-    }
-    
-    .nav__item{
-        display: none;
-    }
-    
-    .--Buscar{
-        display: none;
-        
-    }
-    
-    body{
-        background-color: #FFFBE9;
-        height: fit-content;
-    }
-
 
     .banner{
-        padding-top: 20px;
-        padding-left: 30px;
-        margin-bottom: 150px;
-        height: 180px;
-        width: 300px;
+        padding-top: 70px;
+        padding-bottom: 30px;
+        padding-left: 25%;
+        font-style: italic;
+        font-size: 20px;
+    }
+
+    .zoom{
+        transform: .2s ease-in-out;
     }
     
-    h2, i {
-        font-size: 20px;
-        margin-bottom: 10px;
-    }  
-
-    .evermore{
-        margin-left: -1030px;
+    .zoom:hover{
+        transform: scale(1.1);
     }
+
     .card-banner{
-        
         margin-top: 10px;
         margin-bottom: 20px;
-        width: 305px;
-    }
-    
-    
-    
-    .card-title{
-        font-size: 20px;
-        text-align: center;
-        text-decoration: underline;
-    }
-
-    .card-text{
-        font-size: 15px;
-
-    }
-
-    .submit-c{
-        margin-left: 35%;
-    }
-
-    .submit-i{
-        margin-left: 30%;
-
-    }
-    
-    .submit{
-        padding-top: 0px; 
-        margin-left: 35%; 
-        padding-bottom: 0px; 
-        width: 77px;
-    }
-
-
-    .submit-a{
-        margin-left: 20px;
-        margin-bottom: 10px;
-        
-    }
-    .banner__imagen{
-        display: block;        
-        width: 100%;
-        height: 100%;
-        transition: opacity .5s;
-        opacity: 1;
-        margin-left: -2%;
-        align-content: center;
-
+        margin-left: -12%;
+        width: auto;
     }
     .card-coffee{
-        display: flex;
-        flex-direction: column;
+        margin-left: -10%;
     }
 
-    .texts{
-       margin-top: -615px;
-       display: grid;
-       grid-template-columns: 50%;
-       grid-template-rows: 50px;
-       row-gap: 350px;
-
-    } 
-
-    .texts-books{
-        margin-top: -615px;
-
-        display: grid;
-        grid-template-columns: 50%;
-        grid-template-rows:50px;
-        row-gap: 350px;
- 
-        margin-left: 7%;
-        margin-right: 15%;
-    } 
-
-    .ver-mas{
-        margin-right: 35%;
-        margin-left: 38%;
-    }
-
-    .coffee{
-        margin-top: 600px;
-       
-       display: grid;
-       grid-template-columns: 50%;
-       row-gap: 40px;
-
-       margin-left: 5%;
-       margin-right: 2%;
-       align-items: justify;
-    } 
-
-    .submit{    
-        padding-top: 60px;
-        margin-left: 30%; 
-       
-        padding-bottom: 120px;
-        width: 130px;
-    }
-
-    .preguntas{
-        padding-bottom: 50px;
-        margin-left: 0px;
-        margin-right: 10px;
-        font-size: 15px;
-    }
-    .display-6{
-        font-size: 18px;
-        margin-left: -1000px;
-    }
-
-    .fs-4{
-        padding-left: 5px;
-        font-size: 15px;
-    }
-    .mb-auto p-2 bd-highlight{
-        padding-left: -75px;
-
-    }
-    .p-2 bd-highlight{
-        padding-left: -75px;
-
-    }
     .caja-de-preguntas{
-        padding-bottom: 10px;
-        width: 310px;
-        height: 300px;
-        margin-top: 10px;
-        margin-bottom: 50px;
-        margin-left: -30px;
-        
-        
-        font-size: 15px;
-        
+        width: 75%;
+        margin-left: 5%;
     }
     
     .caja-de-preguntas-two{
-        padding-bottom: 10px;
-        width: 310px;
-        height: 300px;
-        margin-top: 10px;
-        margin-bottom: 50px;
-        margin-left: -30px;
-        
-        
-        font-size: 15px;
-        
+        width: 75%;
+        margin-left: 5%;
     }
     .caja-de-preguntas-three{
-        padding-bottom: 10px;
-        width: 310px;
-        margin-top: 10px;
-        margin-bottom: 50px;
-        margin-left: -30px;
-        
-        
-        font-size: 15px;
+        margin-left: 5%;
     }
 
-    .buttom{
-        margin-left: 130px;
-    }
-    
-    .formulario{
-        width: auto;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .iniciar-sesion{
-        margin-left: 35%;
-        margin-right: 30%;
-
+    .buttom{    
+        margin-left: 40%;
+        margin-top: 50px;
+        width: 78px;
+        background-color: #CEAB93;
     }
 
     #mi-cuenta{
-        padding-top: 80px;
-        font-size: 21px;
-
+        margin-left: -10%;
+    }
+    
+    .formulario{
+        margin-left: 22%;
     }
 
+    .buttom-i{
+        margin-left: 40%;
+    
+    }
+    
+    #registrar{
+        margin-left: -10%;
+    
+    }
     .footer{
-        background-color: #CEAB93; 
-        width: auto;
-        height: fit-content;
+        min-width: 1200px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
-    .col{
-        background-color: #CEAB93;
-    }
-    
-    .footer__name{
-        margin-top: -12px;
-        margin-left: 10px;
-    
-        height: 25px;
-        width: 117px;
-    }
-    .logo{    
-        height: 40px;
-        width: 40px;
-        margin-top: -25px;
-        
-        margin-right: 30px;
-    }
-    
     .h3{
-        background-color: #CEAB93;
         text-decoration: underline;
         font-size: 30px;
-        padding-left: 50px;
+        padding-left: 35%;
+        justify-content: space-between;
     }
     
     
     .item-one{
-        padding-left: 90px;
+        padding-left: 40%;
+        width: auto;
+        background-color: #CEAB93;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+
     }
     
     .item-two{
-        padding-left: 90px;
-    }
-    
-    .items{
-        justify-content: center;
+        padding-left: 40%;
+        width:auto;
+        background-color: #CEAB93;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
     }
 
-    
+    .col{
+        justify-content: space-evenly;
+    }
+
+    .copyright{
+        text-align: center;
+        justify-content: space-around;
+
+    }
 }
 
-@media screen and (min-width: 601px) and (max-width:1024px ) {
+@media (min-width:992px) and (max-width: 1199px) {
     .header{
-        height: 60px;
-    
-        background-image: linear-gradient(#AD8B73, #CEAB93, #E3CAA5); 
         display: flex;
         flex-direction: row;
-        padding: top;
-        align-items: center;
-    
-        position: fixed;
-        
+        justify-content: space-between;
+        min-width: 992px;
+        width:100%;
     
     }
-    .header__logo{    
-        padding-top: 10px;
-        height: 50px;
-        width: 50px;
-        display: inline;
-        margin-bottom: 5px;
-    }
-    
-    .header__name{
-        height: 40px;
-        width: 125px;
-    }
-    .header__nav{
-        display: flex;
-        flex-direction: row;
-        margin-right: 40%;      
-    }
-
-    .nav__item{
-        font-size: 15px;
-    }
-
-    .header__icon, fas fa-bars{
-        display: none;
-    }
-
-
-    
-
-    .banner, h1{
-        align-items:center;
+    .banner{
         padding-top: 70px;
         padding-bottom: 30px;
         padding-left: 10%;
         font-style: italic;
-        font-size: 25px;
-    }
-    
-    .imagen{
-        padding-right: 10px;
-
-        width: 300px;
-        height: 150px;
-    }
-
-    h2 {
-        font-size:27px;
-        margin-bottom: 10px;
-        text-align: center;
-        padding-left: 100px;
-    }  
-
-    body{
-        background-color: #FFFBE9;
-        height: fit-content;
-    }
-
-    
-    .div__flex{
-        background-color: rgb(206,171,147,0.3);
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 250px 150px 150px;
-
-        
-        width: 100%;
-        height: auto;
-        margin-top: 5px;
-        margin-bottom: 0px;
-        
-
-
-        border-top: solid 1px #CEAB93;
-        border-right: solid 1px #CEAB93;
-        border-bottom: solid 1px #CEAB93;
-        border-left: solid 1px #CEAB93;
-    }
-
-    .flex__name{
-        text-align: center;
-        font-size: 26px;
-        text-decoration: underline;
-        margin-top: 10px;
-        margin-bottom: 10px;
-
-        border-radius: 10%;
-    }
-    
-    .flex__texto{
-        text-align:justify; 
-        font-family: 'BIZ UDPMincho', serif;
-        padding-left: 10px;
-        padding-right: 10px;
-        
-
-
-        width: auto;
         font-size: 20px;
-        margin-right: 10px;
-        margin-left: 15px;
-        margin-bottom: 0%;
     }
 
-    .flex__submit-one{
-        margin-right: 10%;
-        margin-left: 43%;
-
-       
-
-        background-color: #CEAB93;
-        height: 35px;
-        margin-top: 15px;
-        width: 130px;
-
-    }
-
-    .flex__submit-two{
-        margin-right: 50%;
-        margin-left: 45%;
-
-        background-color: #CEAB93;
-        height: 25px;
-        margin-top: 15px;
-        width: 100px;
+    .zoom{
+        transform: .2s ease-in-out;
     }
     
-    .flex__submit-three{
-        margin-right: 50%;
-        margin-left: 45%;
+    .zoom:hover{
+        transform: scale(1.1);
+    }
+    .card-banner{
+        margin-left: -65%;
+        margin-right: 25%;
+        width: 85%;
+        font-size: 15px;
+    }
+    .evermore{
+        margin-left: -25%;
+    }
+    .card-coffee{
+        margin-left: -70%;
+    }
+
+    .submit{
+        margin-left: 60px;
+    }
     
-        background-color: #CEAB93;
-        height: 25px;
-        margin-top: 15px;
-        width: 100px;
+    .submit-c{
+        margin-left: 60px;
     }
-
-    .books{
-        margin-top: 100px;
-       
-       display: grid;
-       grid-template-columns: 50% 50%;
-       grid-template-rows:50px 50px;
-       column-gap: 150px;
-       row-gap: 350px;
-
-       margin-left: 10%;
-    } 
-
-    .books__hijo{
-        display: flex;
-        justify-content: center;
-        align-items: auto;
-
-    }
-
     
-    .img_book{
-        height: 380px;
-        width: 320px;
+    .submit-i{
+        margin-left: 40px;
     }
 
-    .texts{
-       
-       display: grid;
-       grid-template-columns: 50% 50%;
-       grid-template-rows:50px 50px;
-       column-gap: -150px;
-       row-gap: 350px;
-
-       margin-left: 7%;
-       margin-right: 15%;
-    } 
-
-    .texts-books{
-       
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows:50px 50px;
-        column-gap: -150px;
-        row-gap: 350px;
- 
-        margin-left: 7%;
-        margin-right: 15%;
-    } 
-
-    .precios{
-        display: grid;
-       grid-template-columns: 50% 50%;
-       grid-template-rows:50px 50px;
-       column-gap: -150px;
-       row-gap: 350px;
-
-       margin-left: 7%;
-       margin-right: 15%;
+    .submit-index{
+        margin-left: -60%;
     }
-
-    .coffee{
-        margin-top: 100px;
-       
-       display: grid;
-       grid-template-columns: 50% 50%;
-       grid-template-rows:50px 50px;
-       column-gap: 200px;
-       row-gap: 350px;
-
-       margin-left: 10%;
-    } 
-    .img_coffee{
-        height: 350px;
-        width: 300px;
-    }
-
-    .img_coffee-1{
-        height: 350px;
-        width: 300px;
-    }
-    .img_coffee_2{
-        height: 350px;
-        width: 250px;
-    }
-    .texts-two{
-       font-size: 20px;
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows:50px 50px;
-        column-gap: -150px;
-        row-gap: 350px;
- 
-        margin-left: 7%;
-        margin-right: 15%;
-    } 
-
-    
 
     .preguntas-frecuentes{
-        font-size: 25px;
-
-    }
-    .preguntas{
-        padding-left: 0px;
-        padding-bottom: 50px;
-        margin-left: 10px;
-        margin-right: 10px;
-
-
+        margin-left: -25%;
     }
 
     .caja-de-preguntas{
-        padding-top: 10px;
-        padding-bottom: 10px;
-        width: auto;
-        height: auto;
-        margin-top: 10px;
-        margin-bottom: 50px;
-        
-        
-        font-size: 19px;
-        
+        width: 65%;
+        margin-left: 2%;
     }
     
     .caja-de-preguntas-two{
-        padding-top: 10px;
-        padding-bottom: 10px;
-        width: auto;
-        height: auto;
-        margin-top: 10px;
-        margin-bottom: 50px;
-        
-        font-size: 19px;
-        
+        width: 65%;
+        margin-left: 2%;
     }
     .caja-de-preguntas-three{
-        padding-top: 10px;
-        padding-bottom: 10px;
-        width: auto;
-        height: auto;
-        margin-top: 10px;
-        margin-bottom: 50px;
-        
-        font-size: 19px;
-        
-    }
-    
-    .submit{    
-        padding-top: 50px;
-        margin-left: 40%; 
-       
-        padding-bottom: 120px;
-        width: 130px;
+        margin-left: 3%;
+        width: 90%;
     }
 
-
-
-    .formulario{
-        width: auto;
-        margin-left: 150px;
-        margin-right: 150px;
-    }
-
-    .iniciar-sesion{
-        margin-left: 42%;
-        margin-right: 30%;
+    .buttom{    
+        margin-left: 33%;
 
     }
 
     #mi-cuenta{
-        padding-top: 100px;
-        font-size: 21px;
+        margin-left: -25%;
+    }
+    
+    .formulario{
+        margin-left: 15%;
+    }
 
+    .buttom-i{
+        margin-left: 33%;
+    
+    }
+    
+    #registrar{
+        margin-left: -30%;
+    
     }
 
     .footer{
-        background-color: #CEAB93; 
-        width: auto;
-        height: 100px;
+        width: 100%;
     }
-    
-    .footer__name{
-        margin-top: -12px;
-        margin-left: 10px;
-    
-        height: 25px;
-        width: 117px;
-    }
-    .logo{    
-        height: 40px;
-        width: 40px;
-        margin-top: -25px;
-        
-        margin-right: 30px;
-    }
-    
     .h3{
-        margin-top: -60px;
-        padding-left: 10%;
         text-decoration: underline;
-        font-size: 25px;
+        font-size: 30px;
+        padding-left: 25%;
+        min-width: fit-content;
     }
     
-    .h3__one{
-        margin-top: -160px;
-        padding-right: 30%;
-        font-size: 25px;
-    
-    }
     
     .item-one{
-    
-        padding-left: 15%;
+        padding-left: 30%;
+        width: auto;
+        background-color: #CEAB93;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         
-        padding-top: 15px;
-        
+
     }
     
     .item-two{
-    
-        background-color: #CEAB93; 
-        padding-left: 61%;
-        
-        padding-top: 15px;
-    
+        padding-left: 30%;
+        width:auto;
+        background-color: #CEAB93;
+
+    }
+
+    .copyright{
+        text-align: center;
+
     }
 }
 
-       
+@media (min-width:768px) and (max-width:991px){
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        min-width: 576px;
+        max-width: 767px;
+        width: 100%;
+    }
+    .footer{
+        max-width: 767px;
+        width: 100%;
+    }
+}
+@media (min-width: 576px) and (max-width:767px){
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        min-width: 576px;
+        max-width: 767px;
+        width: 100%;
+    }
+    
+    main{
+        width: 100%;
+    }
+
+    .banner{
+        padding-top: 20px;
+        padding-left: 5%;
+        margin-bottom: 50px;
+    }
+
+    .banner__imagen{
+        height: 250px;
+        width: 500px;
+        align-content: center;
+    }
+
+    .h4{
+        text-align: center;
+        margin-left: -5rem;
+    }
+
+    .card-banner{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 24rem;
+        margin-left:20%;
+        margin-right: 25%;
+    }
+    
+    .cafeteria{
+        display: inline-flex;
+        flex-direction: row;
+        margin-left: 15%;
+    }
+
+    .libreria{
+        display: inline-flex;
+        flex-direction: row;
+        margin-left: 15%;
+    }
+
+    .card-coffee{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 30%;
+        margin-right: 25%;
+
+        width: 26rem;
+    }
+
+    .submit-index{
+        margin-left: 30%;
+    }
+
+    #mi-cuenta{
+        padding-top: 100px;
+        padding-bottom: 50px;
+        font-style: italic;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .display-6{
+        font-size: 17px;
+       text-align: center;
+       margin-left: 2rem;
+    }
+
+    .formulario{
+        align-content: center;
+        width: 65%;
+        margin-left: 20%;
+        height: 450px;
+    }
+    
+    .Nombre{
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+    
+    .Apellido{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-style: italic;
+        text-align: center;
+        font-size: 16px;
+    }
+    
+    .Correo{
+        padding-bottom: 30px;
+
+        font-size: 16px;
+    }
+    
+    .Password{
+
+        font-size: 16px;
+    }
+    
+    .buttom-i{
+        width: 115px;
+        margin-top: 50px;
+        margin-left: 43%;
+    
+    }
+    
+    #registrar{
+        text-align: start;
+        margin-left: 25%;
+        margin-top: 40px;
+        padding-bottom: 40px;
+        width: auto;
+        height: auto;
+    
+        font-size: 17px;
+    }
+
+    .caja-de-preguntas{
+        height: auto;
+    }
+    
+    .caja-de-preguntas-two{
+        height: auto;
+    }
+
+    .caja-de-preguntas-three{
+        height: auto;
+    }
+
+    .buttom{
+        margin-left: 45%;
+    }
+    .footer{
+        width: 100%;
+    }
+    .logo{
+        max-width: 767px;
+
+    }
+    .h3{
+        text-decoration: underline;
+        font-size: 30px;
+    }
+    
+    
+    .item-one{
+        width: 100%;
+        background-color: #CEAB93;
+
+    }
+    
+    .item-two{
+        width:100%;
+        background-color: #CEAB93;
+
+    }
+}

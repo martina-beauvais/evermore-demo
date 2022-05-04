@@ -22,9 +22,6 @@
                 <img src="../imagenes/evermore.png" class="header__name" />
             </a>
         </div>
-        <div class="header__icon">
-            <i class="fas fa-bars"></i>
-        </div>
         <nav class="navbar navbar-expand-lg navbar-light">
            
             <!--Barra de Navegación-->
@@ -60,12 +57,11 @@
  
                       </li>
                     </ul>
-                </div>
-                <!--Buscar producto-->
-                <form>
+                    <form>
                     <label for="texto"></label>
                     <input type="texto" id="texto" placeholder="Buscar" class="--Buscar"> 
                 </form>  
+                </div>
            </div>
          </nav>
     </header>
@@ -74,7 +70,9 @@
         <section class="section">
             <div class="banner">
                 <p class="h2"><i>Recientes adquisiciones...</i></p>
-                <img src="../imagenes/TRILOGÍA2 .png" class="banner__imagen" class="zoom-banner" />
+                <div class="zoom">                
+                    <img src="../imagenes/TRILOGÍA2 .png" class="banner__imagen" />
+                </div>
             </div>
             
             <!--Sección 2 - Libreria-->
@@ -94,176 +92,153 @@
             </select>
         </section>
         <section>
-            <div class="row g-5">
-                <div class="col-10 col-md-4">
-                    <div class="card-coffee" style="width: 18rem;">
-                        <img class="card-img-top" src="../imagenes/boulevard-2.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Boulevard</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Flor M. Salvador</h6>
-                            <p class="card-text-coffee">$2.199</p>
-                            <div class="submit-coffee">
-                              <a href="#" class="btn btn-outline-dark">Comprar</a>
-                           </div>
+            <div class="container px-4">
+                <div class="row gx-5">
+                    <div class="col-10 col-md-4">
+                        <div class="card-coffee" style="width: 17rem;">
+                            <div class="zoom">                        
+                                <img class="card-img-top" src="../imagenes/boulevard-2.png" alt="Card image cap"/>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Boulevard</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Flor M. Salvador</h6>
+                                <p class="card-text-coffee">$2.199</p>
+                                <div class="submit-coffee">
+                                  <a href="#" class="btn btn-outline-dark">Comprar</a>
+                               </div>
+                            </div>
                         </div>
-                  </div>
-                </div>
-                <div class="col-10 col-md-4">
-                     <div class="card-coffee" style="width: 18rem;">
-                         <img class="card-img-top" src="../imagenes/orgullo y prejuicio .png" alt="Card image cap">
-                         <div class="card-body">
-                             <h5 class="card-title">Jane Austen</h5>
-                             <h6 class="card-subtitle mb-2 text-muted">Flor M. Salvador</h6>
-                             <p class="card-text-coffee">$950</p>
-                             <div class="submit-coffee">
-                               <a href="#" class="btn btn-outline-dark">Comprar</a>
-                             </div>
-                         </div>
                     </div>
-                </div>
-                <div class="col-10 col-md-4">
-                    <div class="card-coffee" style="width: 18rem;">
-                        <img class="card-img-top" src="../imagenes/supernova.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Supernova</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Marissa Meyer</h6>
-                            <p class="card-text-coffee">$1200</p>
-                            <div class="submit-coffee">
-                             <a href="#" class="btn btn-outline-dark">Comprar</a>
+                    <div class="col-10 col-md-4">
+                        <div class="card-coffee" style="width: 17rem;">
+                            <div class="zoom">                         
+                                <img class="card-img-top" src="../imagenes/orgullo y prejuicio .png" alt="Card image cap"/>
                             </div>
-                        </div>
-                  </div>
-                </div>  
-            </div>
-            <div class="row g-5">
-                <div class="col-10 col-md-4">
-                    <div class="card-coffee" style="width: 18rem;">
-                        <img class="card-img-top" src="../imagenes/una-educacion-mortal.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Una Educación Mortal</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Naomi Novik</h6>
-                            <p class="card-text-coffee">$1000</p>
-                            <div class="submit-coffee">
-                              <a href="#" class="btn btn-outline-dark">Comprar</a>
-                           </div>
-                        </div>
-                  </div>
-                </div>
-                <div class="col-10 col-md-4">
-                     <div class="card-coffee" style="width: 18rem;">
-                         <img class="card-img-top" src="../imagenes/matar-un-reino.png" alt="Card image cap">
-                         <div class="card-body">
-                             <h5 class="card-title">Matar un Reino</h5>
-                             <h6 class="card-subtitle mb-2 text-muted">Alexandra Christo</h6>
-                             <p class="card-text-coffee">$1.500</p>
-                             <div class="submit-coffee">
-                               <a href="#" class="btn btn-outline-dark">Comprar</a>
+                             <div class="card-body">
+                                 <h5 class="card-title">Jane Austen</h5>
+                                 <h6 class="card-subtitle mb-2 text-muted">Flor M. Salvador</h6>
+                                 <p class="card-text-coffee">$950</p>
+                                 <div class="submit-coffee">
+                                   <a href="#" class="btn btn-outline-dark">Comprar</a>
+                                 </div>
                              </div>
-                         </div>
+                        </div>
                     </div>
+                    <div class="col-10 col-md-4">
+                        <div class="card-coffee" style="width: 17rem;">
+                            <div class="zoom">
+                                <img class="card-img-top" src="../imagenes/supernova.png" alt="Card image cap"/>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Supernova</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Marissa Meyer</h6>
+                                <p class="card-text-coffee">$1200</p>
+                                <div class="submit-coffee">
+                                 <a href="#" class="btn btn-outline-dark">Comprar</a>
+                                </div>
+                            </div>
+                       </div>
+                    </div>  
                 </div>
-                <div class="col-10 col-md-4">
-                    <div class="card-coffee" style="width: 18rem;">
-                        <img class="card-img-top" src="../imagenes/asesino-de-brujas-2.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Asesino de Bruja</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Shelby Mahurin</h6>
-                            <p class="card-text-coffee">$2.400</p>
-                            <div class="submit-coffee">
-                             <a href="#" class="btn btn-outline-dark">Comprar</a>
+                <div class="row g-5">
+                    <div class="col-10 col-md-4">
+                        <div class="card-coffee" style="width: 18rem;">
+                            <div class="zoom">                       
+                                <img class="card-img-top" src="../imagenes/una-educacion-mortal.png" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Una Educación Mortal</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Naomi Novik</h6>
+                                <p class="card-text-coffee">$1000</p>
+                                <div class="submit-coffee">
+                                  <a href="#" class="btn btn-outline-dark">Comprar</a>
+                               </div>
+                            </div>
+                      </div>
+                    </div>
+                    <div class="col-10 col-md-4">
+                        <div class="card-coffee" style="width: 18rem;">
+                            <div class="zoom">                         
+                                <img class="card-img-top" src="../imagenes/matar-un-reino.png" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Matar un Reino</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Alexandra Christo</h6>
+                                <p class="card-text-coffee">$1.500</p>
+                                <div class="submit-coffee">
+                                    <a href="#" class="btn btn-outline-dark">Comprar</a>
+                                </div>
                             </div>
                         </div>
-                  </div>
-                </div>
-                <div class="col-10 col-md-4">
-                    <div class="card-coffee" style="width: 18rem;">
-                        <img class="card-img-top" src="../imagenes/la-reina-roja.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">La Reina Roja</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Victoria Aveyard</h6>
-                            <p class="card-text-coffee">$2.790</p>
-                            <div class="submit-coffee">
-                             <a href="#" class="btn btn-outline-dark">Comprar</a>
+                    </div>
+                    <div class="col-10 col-md-4">
+                        <div class="card-coffee" style="width: 18rem;">
+                            <div class="zoom">                        
+                                <img class="card-img-top" src="../imagenes/asesino-de-brujas-2.png" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Asesino de Bruja</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Shelby Mahurin</h6>
+                                <p class="card-text-coffee">$2.400</p>
+                                <div class="submit-coffee">
+                                 <a href="#" class="btn btn-outline-dark">Comprar</a>
+                                </div>
+                            </div>
+                       </div>
+                   </div>
+                    <div class="col-10 col-md-4">
+                        <div class="card-coffee" style="width: 18rem;">
+                            <div class="zoom">                        
+                                <img class="card-img-top" src="../imagenes/la-reina-roja.png" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">La Reina Roja</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Victoria Aveyard</h6>
+                                <p class="card-text-coffee">$2.790</p>
+                                <div class="submit-coffee">
+                                 <a href="#" class="btn btn-outline-dark">Comprar</a>
+                                </div>
+                            </div>
+                      </div>
+                    </div>
+                    <div class="col-10 col-md-4">
+                        <div class="card-coffee" style="width: 18rem;">
+                           <div class="zoom">                        
+                              <img class="card-img-top" src="../imagenes/touchdown.png" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Touchdown</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Ludmila Ramis</h6>
+                                <p class="card-text-coffee">$3.400</p>
+                                <div class="submit-coffee">
+                                 <a href="#" class="btn btn-outline-dark">Comprar</a>
+                                </div>
                             </div>
                         </div>
-                  </div>
-                </div>
-                <div class="col-10 col-md-4">
-                    <div class="card-coffee" style="width: 18rem;">
-                        <img class="card-img-top" src="../imagenes/touchdown.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Touchdown</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Ludmila Ramis</h6>
-                            <p class="card-text-coffee">$3.400</p>
-                            <div class="submit-coffee">
-                             <a href="#" class="btn btn-outline-dark">Comprar</a>
+                    </div>
+                    <div class="col-10 col-md-4">
+                        <div class="card-coffee" style="width: 18rem;">
+                            <div class="zoom">                        
+                                <img class="card-img-top" src="../imagenes/caraval.png" alt="Card image cap">
                             </div>
-                        </div>
-                  </div>
-                </div>
-                <div class="col-10 col-md-4">
-                    <div class="card-coffee" style="width: 18rem;">
-                        <img class="card-img-top" src="../imagenes/caraval.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Caraval</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Stephanie Garber</h6>
-                            <p class="card-text-coffee">$2.190</p>
-                            <div class="submit-coffee">
-                             <a href="#" class="btn btn-outline-dark">Comprar</a>
+                            <div class="card-body">
+                                <h5 class="card-title">Caraval</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Stephanie Garber</h6>
+                                <p class="card-text-coffee">$2.190</p>
+                                <div class="submit-coffee">
+                                 <a href="#" class="btn btn-outline-dark">Comprar</a>
+                                </div>
                             </div>
-                        </div>
-                  </div>
+                      </div>
+                   </div>
                 </div>
+                <div class="mx-auto" style="width: 200px;">
+                    <div class="submit-index">
+                      <a class="btn btn-outline-dark" href="../pages/libreria.html">Ver más</a>
+                    </div>
+               </div>
             </div>
-            <div class="mx-auto" style="width: 200px;">
-                <div class="submit-index">
-                  <a class="btn btn-outline-dark" href="../pages/libreria.html">Ver más</a>
-                </div>
-           </div>
         </section>
-        
-            <!--
-            <div class="books">
-                <img class="img_book" class="books__hijo books__hijo--1" src="../imagenes/boulevard-2.png" class="zoom-extra" alt="libro-1" />
-                <img class="img_book" class="books__hijo books__hijo--2" src="../imagenes/orgullo y prejuicio .png"  class="zoom-extra" alt="libro-2" />
-                <img class="img_book" class="books__hijo books__hijo--3" src="../imagenes/supernova.png" class="zoom-extra" alt="libro-3"/>
-                <img class="img_book" class="books__hijo books__hijo--4" src="../imagenes/una-educacion-mortal.png" class="zoom-extra"  alt="libro-4"/>
-            </div>
-            <div class="texts">
-                <p> <b>Boulevard</b> <br> Flor M. Salvador <br> $2.199 </p> 
-                <p> <b>Orgullo y Prejuicio</b> <br> Jane Austen <br> $950 </p>
-                <p> <b>Supernova</b> <br> Marissa Meyer <br> $1200</p>
-                <p> <b>Una Educación Mortal</b> <br> Naomi Novik <br> $1000</p>
-            </div>
-            <div class="books">
-                <img class="img_book" class="books__hijo books__hijo--5" src="../imagenes/touchdown.png" class="zoom-extra" alt="libro-5" />
-                <img class="img_book" class="books__hijo books__hijo--6" src="../imagenes/caraval.png"  class="zoom-extra" alt="libro-6" />
-                <img class="img_book" class="books__hijo books__hijo--7" src="../imagenes/heartstopper.png" class="zoom-extra" alt="libro-7" />
-                <img class="img_book" class="books__hijo books__hijo--8" src="../imagenes/matar-un-reino.png" class="zoom-extra" alt="libro-8" />
-            </div>
-            <div class="texts-books">
-                <p> <b>Touchdown</b> <br> Ludmila Ramis <br>$1.799 </p>
-                <p> <b>Caraval</b> <br> Stephanie Garber <br> $2.740 </p>
-                <p> <b>Heartsropper</b> <br> Alice Oseman <br> $1.200</p>
-                <p> <b>Matar un Reino</b> <br> Alexandra Christo <br> $1.500</p>
-            </div>
-            <div class="books">
-                <img class="img_book" class="books__hijo books__hijo--9" src="../imagenes/the-love-hypothesis.png" class="zoom-extra" alt="libro-9"/>
-                <img class="img_book" class="books__hijo books__hijo--10" src="../imagenes/still-with-you.png"  class="zoom-extra" alt="libro-10"/>
-                <img class="img_book" class="books__hijo books__hijo--11" src="../imagenes/asesino-de-brujas-2.png" class="zoom-extra"  alt="libro-11"/>
-                <img class="img_book" class="books__hijo books__hijo--12" src="../imagenes/la-reina-roja.png" class="zoom-extra"  alt="libro-12"/>
-            </div>
-            <div class="texts-books">
-                <p> <b>The Love Hypothesis</b> <br> Ali Hazelwood <br> $1.300</p>
-                <p> <b>Still With You</b> <br> Lily Del Pilar <br>$1.600</p>
-                <p> <b>Asesino de Brujas</b> <br> Shelby Mahurin <br>$2.400</p>
-                <p> <b>La Reina Roja</b> <br> Victoria Aveyard <br>$2.500 </p>
-            </div>
-
-            <div class="submit-a">
-                <a class="btn btn-outline-dark" href="../pages/libreria.html">Ver más</a>
-            </div>
-        </section>-->
     </main>
     <footer> 
         <!--Pie de Página-->

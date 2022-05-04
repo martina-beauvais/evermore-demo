@@ -8,9 +8,6 @@
     <link rel="shortcut icon" href="../imagenes/logo .png">
     <link rel="stylesheet" href="css/archivos.css"/>
 
-    <!--Font Awesome - Iconos+-->
-    <script src="https://kit.fontawesome.com/1aa0773679.js" crossorigin="anonymous"></script>
-
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -20,21 +17,20 @@
     <!--Parte visible del documento-->
     <!--Se han agregado solo unas pocas imágenes para mayor comprensión del wireframe-->
     <header class="header">
-        <div>
-           <a class="nav__enlace" href="../index.html">
+       <div>
+            <a class="nav__enlace" href="../index.html">
                 <img src="../imagenes/logo .png" class="header__logo" />
             </a>
             <a class="nav__enlace" href="../index.html">
                 <img src="../imagenes/evermore.png" class="header__name" />
             </a>   
-       </div>
-
-       
+        </div>
 
        <nav class="navbar navbar-expand-lg navbar-light">
            
            <!--Barra de Navegación-->
            <div class="container-fluid">
+               
              <a class="navbar-brand" href="#navbar"></a>
                <button
                   class="navbar-toggler"
@@ -62,12 +58,11 @@
                          <a class="nav-link" href="../pages/mi-cuenta.html">Mi cuenta</a>
                      </li>
                    </ul>
+                   <form>
+                        <label for="texto"></label>
+                        <input type="texto" id="texto" placeholder="Buscar" class="--Buscar"> 
+                    </form> 
                </div>
-               <!--Buscar producto-->
-               <form>
-                   <label for="texto"></label>
-                   <input type="texto" id="texto" placeholder="Buscar" class="--Buscar"> 
-               </form>  
           </div>
         </nav>
     </header>
@@ -77,7 +72,9 @@
         <section class="section">
             <div class="banner">
                 <p class="h2"><i>Recientes adquisiciones...</i></p>
-                <img src="../imagenes/TRILOGÍA2 .png" class="banner__imagen" />
+                <div class="zoom">
+                   <img src="../imagenes/TRILOGÍA2 .png" class="banner__imagen" />
+                </div>
             </div>
         </section>
         <!--Sección 2 - pregunta -->
@@ -87,47 +84,48 @@
             </div>
         </section>
         <!--Sección 3-->
-        <div class="row g-5">
-            <div class="col-10 col-md-4">
-                   <div class="card-banner">
-                        <div class="card-body">
-                            <h4 class="card-title">Comunidad para amantes del <br>café y de un buen libro</h4>
-                            <p class="card-text">Evermore es un espacio físico dedicado para las personas amantes 
-                            de una buena lectura, acompañada por un rico café. Ambientado perfectamente para relajarse 
-                            y disfrutar con amigos o por sí mismos. Iniciando sesión, ya sea desde el sitio web o 
-                            la aplicación, se puede ordenar tanto comida como reservar un libro con atenlación.</p>
-                            <div class="submit-i">
-                                <a class="btn btn-outline-dark" href="../pages/mi-cuenta.html" >Iniciar Sesión</a>
-                            </div>
-                            
-                        </div>
-                    </div>
-            </div>
-                <div class="col-10 col-md-4">
-                    <div class="card-banner">
-                        <div class="card-body">
-                             <h4 class="card-title">Cafetería</h4>
-                             <p class="card-text">Nuestra cafetería posee una amplia variedad de bebidads, 
-                              bocadillos y postres. Cuenta con variedades veganas, sin T.A.C.C., entre otras variedades.</p>
-                                <div class="submit-c">
-                                   <a class="btn btn-outline-dark" href="../pages/cafeteriahtml" >Cafetería</a>  
+        <section>
+            <div class="container px-4">
+                <div class="row g-5">
+                    <div class="col-10 col-md-4">
+                        <div class="card-banner">
+                            <div class="card-body">
+                                <h4 class="card-title">Comunidad para amantes del <br>café y de un buen libro</h4>
+                                <p class="card-text">Evermore es un espacio físico dedicado para las personas amantes 
+                                de una buena lectura, acompañada por un rico café. Ambientado perfectamente para relajarse 
+                                y disfrutar con amigos o por sí mismos. Iniciando sesión, ya sea desde el sitio web o 
+                                la aplicación, se puede ordenar tanto comida como reservar un libro con atenlación.</p>
+                                <div class="submit-i">
+                                    <a class="btn btn-outline-dark" href="../pages/mi-cuenta.html" >Iniciar Sesión</a>
                                 </div>
-                            
+                            </div>
                         </div>
                     </div>
-               </div>
-               <div class="col-12 col-md-4">
-                   <div class="card-banner">
-                        <div class="card-body">
-                              <h4 class="card-title">Librería</h4>
-                              <p class="card-text">Nuestra librería cuenta con libros en físico 
+                    <div class="col-10 col-md-4">
+                        <div class="card-banner">
+                            <div class="card-body">
+                                 <h4 class="card-title">Cafetería</h4>
+                                 <p class="card-text">Nuestra cafetería posee una amplia variedad de bebidads, 
+                                  bocadillos y postres. Cuenta con variedades veganas, sin T.A.C.C., entre otras variedades.</p>
+                                    <div class="submit-c">
+                                       <a class="btn btn-outline-dark" href="../pages/cafeteriahtml" >Cafetería</a>  
+                                   </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 col-md-4">
+                        <div class="card-banner">
+                            <div class="card-body">
+                                <h4 class="card-title">Librería</h4>
+                                <p class="card-text">Nuestra librería cuenta con libros en físico 
                                 (ya sea para su compra o lectura dentro del local), en formato ebook y en audiolibros.</p>
                                 <div class="submit">
-                                  <a class="btn btn-outline-dark" href="../pages/libreria.html" >Librería</a>
+                                    <a class="btn btn-outline-dark" href="../pages/libreria.html" >Librería</a>
                                 </div>  
-                        </div>
-                    </div>
-                </div>    
+                            </div>
+                       </div>
+                    </div>    
+                </div>
             </div>
         </section>
         <!--Sección 4 - Productos de la cafetería -->
@@ -136,60 +134,71 @@
                 <h1 class="display-6"><i>Cafetería</i></h1>
                 <img src="../imagenes/vinilo-taza-cafe-color.jpg" class="cafeteria__cafe">
             </div>
-            <div class="row g-5">
-                <div class="col-10 col-md-4">
-                    <div class="card-coffee" style="width: 18rem;">
-                        <img class="card-img-top" src="../imagenes/cappuccino_PNG41.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Cappuccino</h5>
-                            <p class="card-text-coffee">$150</p>
-                            <div class="submit-coffee">
-                              <a href="#" class="btn btn-outline-dark">Comprar</a>
+            <div class="container px-4">
+                <div class="row g-5">
+                    <div class="col-10 col-md-4">
+                        <div class="card-coffee" style="width: 18rem;">
+                            <div class="zoom">
+                              <img class="card-img-top" src="../imagenes/cappuccino_PNG41.png" alt="Card image cap">
                             </div>
-                        </div>
-                   </div>
-               </div>
-               <div class="col-10 col-md-4">
-                    <div class="card-coffee" style="width: 18rem;">
-                        <img class="card-img-top" src="../imagenes/original.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Café de caramelo</h5>
-                            <p class="card-text-coffee">$180</p>
-                            <div class="submit-coffee">
-                              <a href="#" class="btn btn-outline-dark">Comprar</a>
+                            <div class="card-body">
+                                <h5 class="card-title">Cappuccino</h5>
+                                <p class="card-text-coffee">$150</p>
+                                <div class="submit-coffee">
+                                  <a href="#" class="btn btn-outline-dark">Comprar</a>
+                                </div>
                             </div>
-                        </div>
+                       </div>
                    </div>
-              </div>
-              <div class="col-10 col-md-4">
-                  <div class="card-coffee" style="width: 18rem;">
-                      <img class="card-img-top" src="../imagenes/Sweet-Iced-Coffee-PNG-Image-Background.png" alt="Card image cap">
-                      <div class="card-body">
-                          <h5 class="card-title">Café Helado</h5>
-                          <p class="card-text-coffee">$180</p>
-                          <div class="submit-coffee">
-                          <a href="#" class="btn btn-outline-dark">Comprar</a>
+                   <div class="col-10 col-md-4">
+                        <div class="card-coffee" style="width: 18rem;">
+                            <div class="zoom">
+                             <img class="card-img-top" src="../imagenes/original.png" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Café de caramelo</h5>
+                                <p class="card-text-coffee">$180</p>
+                                <div class="submit-coffee">
+                                  <a href="#" class="btn btn-outline-dark">Comprar</a>
+                                </div>
+                            </div>
+                       </div>
+                  </div>
+                  <div class="col-10 col-md-4">
+                      <div class="card-coffee" style="width: 18rem;">
+                          <div class="zoom">
+                             <img class="card-img-top" src="../imagenes/Sweet-Iced-Coffee-PNG-Image-Background.png" alt="Card image cap">
+                          </div>
+                          <div class="card-body">
+                              <h5 class="card-title">Café Helado</h5>
+                              <p class="card-text-coffee">$180</p>
+                              <div class="submit-coffee">
+                              <a href="#" class="btn btn-outline-dark">Comprar</a>
+                              </div>
                           </div>
                       </div>
-                  </div>
-               </div>
-            </div>
-            <div class="row g-5">
-               <div class="col-10 col-md-4">
-                   <div class="card-coffee" style="width: 18rem;">
-                       <img class="card-img-top" src="../imagenes/r0o8msm3ecpvqsvhve3l.png" alt="Card image cap">
-                       <div class="card-body">
-                           <h5 class="card-title">Torta de chocolate</h5>
-                           <p class="card-text-coffee">$260</p>
-                           <div class="submit-coffee">
-                             <a href="#" class="btn btn-outline-dark">Comprar</a>
+                   </div>
+                </div>
+                <div class="row g-5">
+                   <div class="col-10 col-md-4">
+                       <div class="card-coffee" style="width: 18rem;">
+                           <div class="zoom">
+                             <img class="card-img-top" src="../imagenes/r0o8msm3ecpvqsvhve3l.png" alt="Card image cap">
+                           </div>
+                           <div class="card-body">
+                               <h5 class="card-title">Torta de chocolate</h5>
+                               <p class="card-text-coffee">$260</p>
+                               <div class="submit-coffee">
+                                 <a href="#" class="btn btn-outline-dark">Comprar</a>
                            </div>
                        </div>
                   </div>
                </div>
                <div class="col-10 col-md-4">
                     <div class="card-coffee" style="width: 18rem;">
-                        <img class="card-img-top" src="../imagenes/cupcake-de-chocolate.png" alt="Card image cap">
+                        <div class="zoom">
+                           <img class="card-img-top" src="../imagenes/cupcake-de-chocolate.png" alt="Card image cap">
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">Cupcake de chocolate</h5>
                             <p class="card-text-coffee">$30</p>
@@ -201,7 +210,9 @@
               </div>
               <div class="col-10 col-md-4">
                   <div class="card-coffee" style="width: 18rem;">
-                      <img class="card-img-top" src="../imagenes/be3316b7049f47fa6f032c85ba2ec8d1.png" alt="Card image cap">
+                      <div class="zoom">
+                         <img class="card-img-top" src="../imagenes/be3316b7049f47fa6f032c85ba2ec8d1.png" alt="Card image cap">
+                      </div>
                       <div class="card-body">
                           <h5 class="card-title">Cheescake de frutilla</h5>
                           <p class="card-text-coffee">$150</p>
@@ -209,7 +220,8 @@
                           <a href="#" class="btn btn-outline-dark">Comprar</a>
                           </div>
                       </div>
-              </div>
+                   </div>
+                </div>
            </div>
            <div class="mx-auto" style="width: 200px;">
                <div class="submit-index">
@@ -225,94 +237,107 @@
                 <img src="../imagenes/580b585b2edbce24c47b276e.png" class="libreria__libro">
                 
             </div>
-      
-            <div class="row g-5">
-                <div class="col-10 col-md-4">
-                    <div class="card-coffee" style="width: 18rem;">
-                        <img class="card-img-top" src="../imagenes/boulevard-2.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Boulevard</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Flor M. Salvador</h6>
-                            <p class="card-text-coffee">$2.199</p>
-                            <div class="submit-coffee">
-                              <a href="#" class="btn btn-outline-dark">Comprar</a>
-                           </div>
-                        </div>
-                  </div>
-                </div>
-                <div class="col-10 col-md-4">
-                     <div class="card-coffee" style="width: 18rem;">
-                         <img class="card-img-top" src="../imagenes/orgullo y prejuicio .png" alt="Card image cap">
-                         <div class="card-body">
-                             <h5 class="card-title">Jane Austen</h5>
-                             <h6 class="card-subtitle mb-2 text-muted">Flor M. Salvador</h6>
-                             <p class="card-text-coffee">$950</p>
-                             <div class="submit-coffee">
-                               <a href="#" class="btn btn-outline-dark">Comprar</a>
-                             </div>
-                         </div>
+            <div class="container px-4">
+                <div class="row g-5">
+                    <div class="col-10 col-md-4">
+                        <div class="card-coffee" style="width: 18rem;">
+                            <div class="zoom">
+                               <img class="card-img-top" src="../imagenes/boulevard-2.png" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                 <h5 class="card-title">Boulevard</h5>
+                                 <h6 class="card-subtitle mb-2 text-muted">Flor M. Salvador</h6>
+                                 <p class="card-text-coffee">$2.199</p>
+                                 <div class="submit-coffee">
+                                   <a href="#" class="btn btn-outline-dark">Comprar</a>
+                                </div>
+                            </div>
+                       </div>
                     </div>
-                </div>
-                <div class="col-10 col-md-4">
-                    <div class="card-coffee" style="width: 18rem;">
-                        <img class="card-img-top" src="../imagenes/supernova.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Supernova</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Marissa Meyer</h6>
-                            <p class="card-text-coffee">$1200</p>
-                            <div class="submit-coffee">
-                             <a href="#" class="btn btn-outline-dark">Comprar</a>
+                    <div class="col-10 col-md-4">
+                        <div class="card-coffee" style="width: 18rem;">
+                            <div class="zoom">
+                                 <img class="card-img-top" src="../imagenes/orgullo y prejuicio .png" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Orgullo y Prejuicio</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Jane Austen</h6>
+                                <p class="card-text-coffee">$950</p>
+                                <div class="submit-coffee">
+                                  <a href="#" class="btn btn-outline-dark">Comprar</a>
+                                </div>
                             </div>
                         </div>
-                  </div>
-                </div>  
-            </div>
-            <div class="row g-5">
-                <div class="col-10 col-md-4">
-                    <div class="card-coffee" style="width: 18rem;">
-                        <img class="card-img-top" src="../imagenes/una-educacion-mortal.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Una Educación Mortal</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Naomi Novik</h6>
-                            <p class="card-text-coffee">$1000</p>
-                            <div class="submit-coffee">
-                              <a href="#" class="btn btn-outline-dark">Comprar</a>
-                           </div>
-                        </div>
-                  </div>
-                </div>
-                <div class="col-10 col-md-4">
-                     <div class="card-coffee" style="width: 18rem;">
-                         <img class="card-img-top" src="../imagenes/matar-un-reino.png" alt="Card image cap">
-                         <div class="card-body">
-                             <h5 class="card-title">Matar un Reino</h5>
-                             <h6 class="card-subtitle mb-2 text-muted">Alexandra Christo</h6>
-                             <p class="card-text-coffee">$1.500</p>
-                             <div class="submit-coffee">
-                               <a href="#" class="btn btn-outline-dark">Comprar</a>
-                             </div>
-                         </div>
                     </div>
-                </div>
-                <div class="col-10 col-md-4">
-                    <div class="card-coffee" style="width: 18rem;">
-                        <img class="card-img-top"src="../imagenes/asesino-de-brujas-2.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Asesino de Bruja</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Shelby Mahurin</h6>
-                            <p class="card-text-coffee">$2.400</p>
-                            <div class="submit-coffee">
-                             <a href="#" class="btn btn-outline-dark">Comprar</a>
+                    <div class="col-10 col-md-4">
+                        <div class="card-coffee" style="width: 18rem;">
+                            <div class="zoom">                            
+                                <img class="card-img-top" src="../imagenes/supernova.png" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Supernova</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Marissa Meyer</h6>
+                                <p class="card-text-coffee">$1200</p>
+                                <div class="submit-coffee">
+                                 <a href="#" class="btn btn-outline-dark">Comprar</a>
+                                </div>
                             </div>
                         </div>
-                  </div>
-                </div>  
-            </div>
-            <div class="mx-auto" style="width: 200px;">
-                <div class="submit-index">
-                  <a class="btn btn-outline-dark" href="../pages/libreria.html">Ver más</a>
+                   </div>  
                 </div>
-           </div>
+                <div class="row g-5">
+                    <div class="col-10 col-md-4">
+                        <div class="card-coffee" style="width: 18rem;">
+                            <div class="zoom">
+                               <img class="card-img-top" src="../imagenes/una-educacion-mortal.png" alt="Card image cap">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Una Educación Mortal</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Naomi Novik</h6>
+                                <p class="card-text-coffee">$1000</p>
+                                <div class="submit-coffee">
+                                  <a href="#" class="btn btn-outline-dark">Comprar</a>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 col-md-4">
+                         <div class="card-coffee" style="width: 18rem;">
+                             <div class="zoom">
+                                 <img class="card-img-top" src="../imagenes/matar-un-reino.png" alt="Card image cap"> 
+                             </div>
+                             <div class="card-body">
+                                 <h5 class="card-title">Matar un Reino</h5>
+                                 <h6 class="card-subtitle mb-2 text-muted">Alexandra Christo</h6>
+                                 <p class="card-text-coffee">$1.500</p>
+                                 <div class="submit-coffee">
+                                   <a href="#" class="btn btn-outline-dark">Comprar</a>
+                                 </div>
+                             </div>
+                        </div>
+                    </div>
+                    <div class="col-10 col-md-4">
+                        <div class="card-coffee" style="width: 18rem;">
+                            <div class="zoom">
+                               <img class="card-img-top"src="../imagenes/asesino-de-brujas-2.png" alt="Card image cap">
+                             </div>
+                             <div class="card-body">
+                                <h5 class="card-title">Asesino de Bruja</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Shelby Mahurin</h6>
+                                <p class="card-text-coffee">$2.400</p>
+                                <div class="submit-coffee">
+                                 <a href="#" class="btn btn-outline-dark">Comprar</a>
+                                </div>
+                            </div>
+                      </div>
+                   </div>  
+               </div>
+                <div class="mx-auto" style="width: 200px;">
+                    <div class="submit-index">
+                      <a class="btn btn-outline-dark" href="../pages/libreria.html">Ver más</a>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer> 
@@ -323,41 +348,41 @@
         </div>
         
        <div class="row align-items-center">
-        <div class="col">
-            <h3 class="h3">Explora</h3>
-            <dt>
-              <dd class="item-one">
-                  <a href="../pages/cafeteria.html" class="footer__nav">Cafetería</a>
-              </dd>
-              <dd class="item-one">
-                  <a href="../pages/libreria.html" class="footer__nav">Librería</a>
-              </dd>
-              <dd class="item-one">
-                  <a href="../pages/preguntas-frecuentes.html" class="footer__nav">Preguntas Frecuentes</a>
-              </dd>
-              <dd class="item-one">
-                  <a href="../pages/mi-cuenta.html" class="footer__nav">Mi cuenta</a>
-              </dd>
-            </dt>
-        </div>
-        <div class="col">
-            <h3 class="h3">Contacto</h3>
-            <!--Rutas externas-->
-                <dt class="items">
-                <dd class="item-two">
-                    <a target="_blank" href="https://mail.google.com/mail/u/0/?pli=1" class="footer__nav">Email</a>
-                </dd>
-                <dd class="item-two">
-                    <a target="_blank" href="https://twitter.com/home" class="footer__nav">Twitter</a>
-                </dd>
-                <dd class="item-two">
-                    <a target="_blank" href="https://www.instagram.com/?hl=es-la" class="footer__nav">Instagram</a>
-                </dd>
-                <dd class="item-two">
-                    <a target="_blank" href="https://web.whatsapp.com/" class="footer__nav">WhatsApp</a>
-                </dd>
-            </dt>
-        </div>
+            <div class="col">
+                <h3 class="h3">Explora</h3>
+                <dt>
+                  <dd class="item-one">
+                      <a href="../pages/cafeteria.html" class="footer__nav">Cafetería</a>
+                  </dd>
+                  <dd class="item-one">
+                      <a href="../pages/libreria.html" class="footer__nav">Librería</a>
+                  </dd>
+                  <dd class="item-one">
+                      <a href="../pages/preguntas-frecuentes.html" class="footer__nav">Preguntas Frecuentes</a>
+                  </dd>
+                  <dd class="item-one">
+                      <a href="../pages/mi-cuenta.html" class="footer__nav">Mi cuenta</a>
+                  </dd>
+                </dt>
+            </div>
+            <div class="col">
+                <h3 class="h3">Contacto</h3>
+                <!--Rutas externas-->
+                    <dt class="items">
+                    <dd class="item-two">
+                        <a target="_blank" href="https://mail.google.com/mail/u/0/?pli=1" class="footer__nav">Email</a>
+                    </dd>
+                    <dd class="item-two">
+                        <a target="_blank" href="https://twitter.com/home" class="footer__nav">Twitter</a>
+                    </dd>
+                    <dd class="item-two">
+                        <a target="_blank" href="https://www.instagram.com/?hl=es-la" class="footer__nav">Instagram</a>
+                    </dd>
+                    <dd class="item-two">
+                        <a target="_blank" href="https://web.whatsapp.com/" class="footer__nav">WhatsApp</a>
+                    </dd>
+                </dt>
+            </div>
       </div>
        <div class="copyright">
             &copy; 2022 evermore 

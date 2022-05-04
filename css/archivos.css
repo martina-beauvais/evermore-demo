@@ -511,6 +511,290 @@ dt{
 
 
 /*Media para dispositivos tablets*/
+@media screen and (max-width:576px) {
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: top;
+        width: 576px;
+    }
+    .header__logo{    
+        padding-top: 10px;
+        height: 43px;
+        width: 43px;
+        display: inline;
+        margin-bottom: 10px;
+    }
+    
+    .header__name{
+        height: 37px;
+        width: 140px;
+        margin-bottom: 5px;
+    }
+    
+    .nav__item{
+        display: none;
+    }
+    
+    .--Buscar{
+        display: none;
+        
+    }
+    
+    body{
+        background-color: #FFFBE9;
+        height: fit-content;
+    }
+
+
+    .banner{
+        padding-top: 20px;
+        padding-left: 30px;
+        margin-bottom: 150px;
+        height: 180px;
+        width: 300px;
+    }
+    
+    h2, i {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }  
+
+    .evermore{
+        margin-left: -1030px;
+    }
+    .card-banner{
+        
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 305px;
+    }
+    
+    
+    
+    .card-title{
+        font-size: 20px;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .card-text{
+        font-size: 15px;
+
+    }
+
+    .submit-c{
+        margin-left: 35%;
+    }
+
+    .submit-i{
+        margin-left: 30%;
+
+    }
+    
+    .submit{
+        padding-top: 0px; 
+        margin-left: 35%; 
+        padding-bottom: 0px; 
+        width: 77px;
+    }
+
+
+    .submit-a{
+        margin-left: 20px;
+        margin-bottom: 10px;
+        
+    }
+    .banner__imagen{
+        display: block;        
+        width: 100%;
+        height: 100%;
+        transition: opacity .5s;
+        opacity: 1;
+        margin-left: -2%;
+        align-content: center;
+
+    }
+    .card-coffee{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .texts{
+       margin-top: -615px;
+       display: grid;
+       grid-template-columns: 50%;
+       grid-template-rows: 50px;
+       row-gap: 350px;
+
+    } 
+
+    .texts-books{
+        margin-top: -615px;
+
+        display: grid;
+        grid-template-columns: 50%;
+        grid-template-rows:50px;
+        row-gap: 350px;
+ 
+        margin-left: 7%;
+        margin-right: 15%;
+    } 
+
+    .ver-mas{
+        margin-right: 35%;
+        margin-left: 38%;
+    }
+
+    .coffee{
+        margin-top: 600px;
+       
+       display: grid;
+       grid-template-columns: 50%;
+       row-gap: 40px;
+
+       margin-left: 5%;
+       margin-right: 2%;
+       align-items: justify;
+    } 
+
+    .submit{    
+        padding-top: 60px;
+        margin-left: 30%; 
+       
+        padding-bottom: 120px;
+        width: 130px;
+    }
+
+    .preguntas{
+        padding-bottom: 50px;
+        margin-left: 0px;
+        margin-right: 10px;
+        font-size: 15px;
+    }
+    .display-6{
+        font-size: 18px;
+        margin-left: -1000px;
+    }
+
+    .fs-4{
+        padding-left: 5px;
+        font-size: 15px;
+    }
+    .mb-auto p-2 bd-highlight{
+        padding-left: -75px;
+
+    }
+    .p-2 bd-highlight{
+        padding-left: -75px;
+
+    }
+    .caja-de-preguntas{
+        padding-bottom: 10px;
+        width: 310px;
+        height: 300px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        margin-left: -30px;
+        
+        
+        font-size: 15px;
+        
+    }
+    
+    .caja-de-preguntas-two{
+        padding-bottom: 10px;
+        width: 310px;
+        height: 300px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        margin-left: -30px;
+        
+        
+        font-size: 15px;
+        
+    }
+    .caja-de-preguntas-three{
+        padding-bottom: 10px;
+        width: 310px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        margin-left: -30px;
+        
+        
+        font-size: 15px;
+    }
+
+    .buttom{
+        margin-left: 130px;
+    }
+    
+    .formulario{
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .iniciar-sesion{
+        margin-left: 35%;
+        margin-right: 30%;
+
+    }
+
+    #mi-cuenta{
+        padding-top: 80px;
+        font-size: 21px;
+
+    }
+
+    .footer{
+        background-color: #CEAB93; 
+        width: auto;
+        height: fit-content;
+    }
+
+    .col{
+        background-color: #CEAB93;
+    }
+    
+    .footer__name{
+        margin-top: -12px;
+        margin-left: 10px;
+    
+        height: 25px;
+        width: 117px;
+    }
+    .logo{    
+        height: 40px;
+        width: 40px;
+        margin-top: -25px;
+        
+        margin-right: 30px;
+    }
+    
+    .h3{
+        background-color: #CEAB93;
+        text-decoration: underline;
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    
+    
+    .item-one{
+        padding-left: 90px;
+    }
+    
+    .item-two{
+        padding-left: 90px;
+    }
+    
+    .items{
+        justify-content: center;
+    }
+
+    
+}
 
 @media screen and (min-width: 601px) and (max-width:1024px ) {
     .header{
@@ -890,315 +1174,4 @@ dt{
     }
 }
 
-@media screen and (max-width:576px) {
-    
-    
-    .header{
-        position: absolute;
-        height: 60px;
-    
-        background-image: linear-gradient(#AD8B73, #CEAB93, #E3CAA5); 
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        padding: top;
-    
-        
-        
-    
-    }
-    .header__logo{    
-        padding-top: 10px;
-        height: 43px;
-        width: 43px;
-        display: inline;
-        margin-bottom: 10px;
-    }
-    
-    .header__name{
-        height: 37px;
-        width: 140px;
-        margin-bottom: 5px;
-    }
-    
-    .nav__item{
-        display: none;
-    }
-    
-    .--Buscar{
-        display: none;
-        
-    }
-    
-    body{
-        background-color: #FFFBE9;
-        height: fit-content;
-    }
-
-
-    .banner{
-        padding-top: 20px;
-        padding-left: 30px;
-        margin-bottom: 150px;
-        height: 200px;
-        width: 300px;
-    }
-    
-    h2, i {
-        font-size: 20px;
-        text-align: center;
-        margin-bottom: 10px;
-    }  
-
-    .card-banner{
-        margin-top: 10px;
-        margin-bottom: 20px;
-        width: 350px;
-    }
-    
-    .card-body{
-        background-color: rgba(227,202,165,0.5);
-    
-    }
-    
-    .card-title{
-        font-size: 20px;
-        text-align: center;
-        text-decoration: underline;
-    }
-
-    .card-text{
-        font-size: 15px;
-
-    }
-
-    .submit{
-        width: 0px;
-        background-color: #CEAB93;
-        margin-left: 60px;
-        
-    }
-    
-    .btn{
-        text-align: center;
-    }
-
-
-    .submit-a{
-        margin-left: 20px;
-        margin-bottom: 10px;
-        
-    }
-    .banner__imagen{
-        display: block;        
-        width: 100%;
-        height: 100%;
-        transition: opacity .5s;
-        opacity: 1;
-        margin-left: -2%;
-        align-content: center;
-
-    }
-    .books{
-        margin-top: 700px;
        
-       display: grid;
-       grid-template-columns: 50%;
-       row-gap: 40px;
-
-       margin-left: 2%;
-    } 
-
-    
-    .img_book{
-        height: 380px;
-        width: 320px;
-    }
-
-    .texts{
-       margin-top: -615px;
-       display: grid;
-       grid-template-columns: 50%;
-       grid-template-rows: 50px;
-       row-gap: 350px;
-
-    } 
-
-    .texts-books{
-        margin-top: -615px;
-
-        display: grid;
-        grid-template-columns: 50%;
-        grid-template-rows:50px;
-        row-gap: 350px;
- 
-        margin-left: 7%;
-        margin-right: 15%;
-    } 
-
-    .ver-mas{
-        margin-right: 35%;
-        margin-left: 38%;
-    }
-
-    .coffee{
-        margin-top: 600px;
-       
-       display: grid;
-       grid-template-columns: 50%;
-       row-gap: 40px;
-
-       margin-left: 5%;
-       margin-right: 2%;
-       align-items: justify;
-    } 
-    
-    .img_coffee{
-        height: 250px;
-        width: 290px;
-        margin-bottom: 50px;
-        margin-left: 15%;
-
-    }
-    .img_coffee-1{
-        height: 250px;
-        width: 270px;
-        margin-bottom: 50px;
-        margin-left: 15%;
-
-    }
-
-    .img_coffee_2{
-        height: 250px;
-        width: 200px;
-        margin-bottom: 50px;
-        margin-left: 20%;
-    }
-
-    .texts-two{
-        margin-top: -590px;
-       display: grid;
-       grid-template-columns: 50%;
-       grid-template-rows: 50px;
-       row-gap: 310px;
-
-       margin-left: 7%;
- 
-    } 
-
-    .submit{    
-        padding-top: 60px;
-        margin-left: 30%; 
-       
-        padding-bottom: 120px;
-        width: 130px;
-    }
-
-    .preguntas{
-        padding-left: 0px;
-        padding-bottom: 50px;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-    .caja-de-preguntas{
-        padding-top: 10px;
-        padding-bottom: 10px;
-        width: auto;
-        height: auto;
-        margin-top: 10px;
-        margin-bottom: 50px;
-        
-        
-        font-size: 17px;
-        
-    }
-    
-    .caja-de-preguntas-two{
-        padding-top: 10px;
-        padding-bottom: 10px;
-        width: auto;
-        height: auto;
-        margin-top: 10px;
-        margin-bottom: 50px;
-        
-        font-size: 17px;
-        
-    }
-    .caja-de-preguntas-three{
-        padding-top: 10px;
-        padding-bottom: 10px;
-        width: auto;
-        height: auto;
-        margin-top: 10px;
-        margin-bottom: 50px;
-        
-        font-size: 17px;
-        
-    }
-    
-    .formulario{
-        width: auto;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .iniciar-sesion{
-        margin-left: 35%;
-        margin-right: 30%;
-
-    }
-
-    #mi-cuenta{
-        padding-top: 80px;
-        font-size: 21px;
-
-    }
-
-    .footer{
-        background-color: #CEAB93; 
-        width: auto;
-        height: fit-content;
-    }
-
-    .col{
-        background-color: #CEAB93;
-    }
-    
-    .footer__name{
-        margin-top: -12px;
-        margin-left: 10px;
-    
-        height: 25px;
-        width: 117px;
-    }
-    .logo{    
-        height: 40px;
-        width: 40px;
-        margin-top: -25px;
-        
-        margin-right: 30px;
-    }
-    
-    .h3{
-        background-color: #CEAB93;
-        text-decoration: underline;
-        font-size: 30px;
-        padding-left: 50px;
-    }
-    
-    
-    .item-one{
-        padding-left: 90px;
-    }
-    
-    .item-two{
-        padding-left: 90px;
-    }
-    
-    .items{
-        justify-content: center;
-    }
-
-    
-}       

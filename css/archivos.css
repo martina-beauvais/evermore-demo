@@ -13,17 +13,12 @@ font-family: 'BIZ UDPMincho', serif;
     justify-content: space-between;
 
     background-image: linear-gradient(#AD8B73, #CEAB93, #E3CAA5); 
-    display: flex;
-    flex-direction: row;
-    padding: top;
-    justify-content: space-between;
-    align-items: center;
-
-   
-    top: 0;
-
 }
-
+#navbar{
+    background-image: linear-gradient(#CEAB93, #E3CAA5); 
+    padding-left: 50px;
+    font-weight: bolder;
+}
 .header__logo{    
     height: 60px;
     width: 60px;

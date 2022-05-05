@@ -15,7 +15,6 @@ font-family: 'BIZ UDPMincho', serif;
     background-image: linear-gradient(#AD8B73, #CEAB93, #E3CAA5); 
 }
 #navbar{
-    background-image: linear-gradient(#CEAB93, #E3CAA5); 
     padding-left: 50px;
     font-weight: bolder;
 }
@@ -413,6 +412,7 @@ dt{
         width: 100%;
     }
 
+
     .banner{
         padding-top: 70px;
         padding-bottom: 30px;
@@ -535,6 +535,7 @@ dt{
         width:100%;
     
     }
+
     .banner{
         padding-top: 70px;
         padding-bottom: 30px;
@@ -665,6 +666,12 @@ dt{
         max-width: 767px;
         width: 100%;
     }
+
+    #navbar{
+        background-image: linear-gradient(#CEAB93, #E3CAA5); 
+        padding-left: 50px;
+        font-weight: bolder;
+    }
     .footer{
         max-width: 767px;
         width: 100%;
@@ -678,6 +685,12 @@ dt{
         min-width: 576px;
         max-width: 767px;
         width: 100%;
+    }
+
+    #navbar{
+        background-image: linear-gradient(#CEAB93, #E3CAA5); 
+        padding-left: 50px;
+        font-weight: bolder;
     }
     
     main{

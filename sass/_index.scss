@@ -1,0 +1,142 @@
+main{
+    background-color: #FFFBE9;
+    width: 1349px;
+    height: auto;
+}
+.banner{
+    padding-top: 20px;
+    padding-left: 350px;
+    margin-bottom: 50px;
+
+    .h2{
+    padding-top: 90px;
+    padding-bottom: 0px;
+    margin-left: 0px;
+    font-style: italic;
+    }
+    .zoom{
+        transform: .2s ease-in-out;
+    }
+    
+    .zoom:hover{
+        transform: scale(1.1);
+    }
+}
+.evermore{
+    .h4{
+        text-align: center;
+        text-decoration: underline;
+        margin-bottom: 0px;
+    }
+}
+
+.card-banner{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 22rem;
+    align-content: center;
+    margin-left: 10px;
+
+    .card-body{
+        background-color: rgba(227,202,165,0.5);
+
+        .card-title{
+            text-align: center;
+            text-decoration: underline;
+        }
+        .card-text{
+            margin-left: 5px;
+        }
+        .submit-i{
+            width: 115px;
+            background-color: #CEAB93;
+            margin-left: 100px;
+            align-items: flex-end;
+            .btn{
+                text-align: center;
+            } 
+        }
+        .submit-c{
+            width: 83px;
+            background-color: #CEAB93;
+            margin-left: 120px;
+            .btn{
+                text-align: center;
+            }
+        }
+        .submit{
+            width: 78px;
+            background-color: #CEAB93;
+            margin-left: 120px;
+            .btn{
+                text-align: center;
+            }
+        }
+                
+    }
+}
+.cafeteria{
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 15px;
+    
+    .cafeteria__cafe{
+        height: 40px;
+        width: 40px;
+    }
+
+}
+
+.card-coffee{
+    .zoom{
+        transform: .2s;
+    }
+                
+    .zoom:hover{
+        transform: scale(1.1);
+    }
+
+    .card-body{
+        background-color: rgba(227,202,165,0.5);
+                
+        .card-title{
+            text-align: center;
+            text-decoration: underline;
+        }
+        .card-text-coffee{
+            text-align: center;
+
+            
+        }
+        .card-subtitle{
+            text-align: center;
+        }
+            
+        p{
+            text-decoration:solid; 
+        }            
+        .submit-coffee{
+            width: 83px;
+            background-color: #CEAB93;
+            margin-left: 85px;
+        }
+    }
+}
+.libreria{
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-top: 20px;
+
+    .libreria__libro{
+        height: 40px;
+        width: 40px;
+    }
+}
+
+.submit-index{  
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+
+}

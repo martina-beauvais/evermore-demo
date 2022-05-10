@@ -1,0 +1,46 @@
+.header{ 
+    position: fixed;
+    width: 1349px;
+    height: 70px;
+    justify-content: space-between;
+    display: inline-flex;
+
+    background-image: linear-gradient(#AD8B73, #CEAB93, #E3CAA5); 
+    div{
+        a{
+            
+            .header__logo{    
+                height: 60px;
+                width: 60px;
+                display: inline;
+                margin-bottom: 10px;
+            }
+            .header__name{
+                height: 50px;
+                width: 150px;
+            }
+        
+        }
+        
+    }
+    
+    nav{
+        div{
+            div{
+                #navbar{
+                padding-left: 50px;
+                font-weight: bolder;
+
+
+                ul{
+                    list-style: none;
+                }
+                }
+
+
+            }
+            
+        }
+        
+    }
+}

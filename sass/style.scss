@@ -1,0 +1,11 @@
+* {/*Selector Universal*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'BIZ UDPMincho', serif;
+}
+
+@import "header";
+@import "index";
+@import "footer";
+@import "media-queries";

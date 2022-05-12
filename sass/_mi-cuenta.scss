@@ -1,0 +1,67 @@
+#mi-cuenta{
+    padding-top: 130px;
+    padding-bottom: 50px;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+}
+.formulario{
+    border: solid 5px rgb(206,171,147);
+    background-color: rgba(206,171,147,0.3);
+    
+    width: 580px;
+    height: 500px;
+
+    margin-left: 400px;
+
+    .Nombre{
+        padding-top: 60px;
+        padding-bottom: 50px;
+        font-style: italic;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .Apellido{
+        padding-top: 30px;
+        padding-bottom: 50px;
+        font-style: italic;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .Correo{
+        padding-top: 30px;
+        padding-bottom: 50px;
+        font-style: italic;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .Password{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-style: italic;
+        text-align: center;
+        font-size: 20px;
+    }
+}
+.buttom-i{
+    width: 115px;
+    background-color: #CEAB93;
+    margin-top: 50px;
+    margin-left: 620px;
+    align-items: flex-end;
+
+}
+
+#registrar{
+    text-align:  center;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    width: auto;
+    height: auto;
+
+    font-size: 21px;
+
+}

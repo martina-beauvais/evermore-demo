@@ -1,0 +1,62 @@
+.preguntas-frecuentes{
+    padding-top: 110px;
+    padding-bottom:60px;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+}
+div{
+    ul{
+        list-style: none;
+        .caja-de-preguntas{
+            padding: 10px;
+            background-color: rgba(206,171,147,0.3);
+    
+            width: auto;
+            height: 190px;
+            margin-top: 5px;
+            margin-bottom: 40px;
+            margin: 50px;
+
+            text-align: justify;
+            font-size: 21px;
+    
+        }
+        .caja-de-preguntas-two{
+            padding: 10px;
+            background-color: rgba(206,171,147,0.3);
+    
+            width: auto;
+            height: 200px;
+            margin-top: 5px;
+            margin-bottom: 40px;
+            margin: 50px;
+
+            font-size: 22px;
+    
+        }
+        .caja-de-preguntas-three{
+            padding: 10px;
+            background-color: rgba(206,171,147,0.3);
+    
+            width: auto;
+            height: 170px;
+            margin-top: 5px;
+            margin: 50px;
+
+            font-size: 22px;
+    
+        }
+    }
+    .submit-index{  
+        padding-bottom: 50px;
+        padding-top: 50px;
+        margin-left: 45%;
+        text-align: center;
+
+        .btn{
+            text-align: center;
+        }
+    }
+    
+}

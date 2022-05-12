@@ -127,6 +127,104 @@ main {
   padding-top: 50px;
   text-align: center; }
 
+#mi-cuenta {
+  padding-top: 130px;
+  padding-bottom: 50px;
+  font-style: italic;
+  text-align: center;
+  text-decoration: underline; }
+
+.formulario {
+  border: solid 5px #ceab93;
+  background-color: rgba(206, 171, 147, 0.3);
+  width: 580px;
+  height: 500px;
+  margin-left: 400px; }
+  .formulario .Nombre {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    font-style: italic;
+    text-align: center;
+    font-size: 20px; }
+  .formulario .Apellido {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-style: italic;
+    text-align: center;
+    font-size: 20px; }
+  .formulario .Correo {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-style: italic;
+    text-align: center;
+    font-size: 20px; }
+  .formulario .Password {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-style: italic;
+    text-align: center;
+    font-size: 20px; }
+
+.buttom-i {
+  width: 115px;
+  background-color: #CEAB93;
+  margin-top: 50px;
+  margin-left: 620px;
+  align-items: flex-end; }
+
+#registrar {
+  text-align: center;
+  margin-top: 40px;
+  padding-bottom: 40px;
+  width: auto;
+  height: auto;
+  font-size: 21px; }
+
+.preguntas-frecuentes {
+  padding-top: 110px;
+  padding-bottom: 60px;
+  font-style: italic;
+  text-align: center;
+  text-decoration: underline; }
+
+div ul {
+  list-style: none; }
+  div ul .caja-de-preguntas {
+    padding: 10px;
+    background-color: rgba(206, 171, 147, 0.3);
+    width: auto;
+    height: 190px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    margin: 50px;
+    text-align: justify;
+    font-size: 21px; }
+  div ul .caja-de-preguntas-two {
+    padding: 10px;
+    background-color: rgba(206, 171, 147, 0.3);
+    width: auto;
+    height: 200px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    margin: 50px;
+    font-size: 22px; }
+  div ul .caja-de-preguntas-three {
+    padding: 10px;
+    background-color: rgba(206, 171, 147, 0.3);
+    width: auto;
+    height: 170px;
+    margin-top: 5px;
+    margin: 50px;
+    font-size: 22px; }
+
+div .submit-index {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  margin-left: 45%;
+  text-align: center; }
+  div .submit-index .btn {
+    text-align: center; }
+
 .footer {
   width: 1349px;
   height: auto;

@@ -23,26 +23,13 @@ div{
     
         }
         .caja-de-preguntas-two{
-            padding: 10px;
-            background-color: rgba(206,171,147,0.3);
-    
-            width: auto;
+            @extend .caja-de-preguntas;
             height: 200px;
-            margin-top: 5px;
-            margin-bottom: 40px;
-            margin: 50px;
-
             font-size: 22px;
-    
         }
         .caja-de-preguntas-three{
-            padding: 10px;
-            background-color: rgba(206,171,147,0.3);
-    
-            width: auto;
+            @extend .caja-de-preguntas;
             height: 170px;
-            margin-top: 5px;
-            margin: 50px;
 
             font-size: 22px;
     

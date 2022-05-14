@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   /*Selector Universal*/
   margin: 0;
@@ -27,9 +28,9 @@
       list-style: none; }
 
 main {
-  background-color: #FFFBE9;
   width: 1349px;
-  height: auto; }
+  height: auto;
+  background-color: #FFFBE9; }
 
 .banner {
   padding-top: 20px;
@@ -140,30 +141,19 @@ main {
   width: 580px;
   height: 500px;
   margin-left: 400px; }
-  .formulario .Nombre {
+  .formulario .Nombre, .formulario .Apellido, .formulario .Correo, .formulario .Password {
     padding-top: 60px;
     padding-bottom: 50px;
     font-style: italic;
     text-align: center;
     font-size: 20px; }
   .formulario .Apellido {
-    padding-top: 30px;
-    padding-bottom: 50px;
-    font-style: italic;
-    text-align: center;
-    font-size: 20px; }
+    padding-top: 30px; }
   .formulario .Correo {
-    padding-top: 30px;
-    padding-bottom: 50px;
-    font-style: italic;
-    text-align: center;
-    font-size: 20px; }
+    padding-top: 30px; }
   .formulario .Password {
     padding-top: 30px;
-    padding-bottom: 30px;
-    font-style: italic;
-    text-align: center;
-    font-size: 20px; }
+    padding-bottom: 30px; }
 
 .buttom-i {
   width: 115px;
@@ -189,7 +179,7 @@ main {
 
 div ul {
   list-style: none; }
-  div ul .caja-de-preguntas {
+  div ul .caja-de-preguntas, div ul .caja-de-preguntas-two, div ul .caja-de-preguntas-three {
     padding: 10px;
     background-color: rgba(206, 171, 147, 0.3);
     width: auto;
@@ -200,21 +190,10 @@ div ul {
     text-align: justify;
     font-size: 21px; }
   div ul .caja-de-preguntas-two {
-    padding: 10px;
-    background-color: rgba(206, 171, 147, 0.3);
-    width: auto;
     height: 200px;
-    margin-top: 5px;
-    margin-bottom: 40px;
-    margin: 50px;
     font-size: 22px; }
   div ul .caja-de-preguntas-three {
-    padding: 10px;
-    background-color: rgba(206, 171, 147, 0.3);
-    width: auto;
     height: 170px;
-    margin-top: 5px;
-    margin: 50px;
     font-size: 22px; }
 
 div .submit-index {
@@ -225,7 +204,7 @@ div .submit-index {
   div .submit-index .btn {
     text-align: center; }
 
-.footer {
+.footer¨ {
   width: 1349px;
   height: auto;
   background-color: #CEAB93;
@@ -262,6 +241,14 @@ div .submit-index {
     .col .item-one .footer__nav {
       color: black;
       text-decoration: none; }
+      .col .item-one .footer__nav .bi-envelope-fill {
+        color: white; }
+      .col .item-one .footer__nav .bi bi-twitter {
+        color: white; }
+      .col .item-one .footer__nav .bi bi-instagram {
+        color: white; }
+      .col .item-one .footer__nav .bi bi-whatsapp {
+        color: white; }
   .col .item-two {
     padding-left: 50px; }
     .col .item-two .footer__nav {
@@ -298,7 +285,7 @@ div .submit-index {
     width: auto; }
   .card-coffee {
     margin-left: -10%; }
-  .caja-de-preguntas {
+  .caja-de-preguntas, div ul .caja-de-preguntas-two, div ul .caja-de-preguntas-three {
     width: 75%;
     margin-left: 5%; }
   .caja-de-preguntas-two {
@@ -386,7 +373,7 @@ div .submit-index {
     margin-left: -60%; }
   .preguntas-frecuentes {
     margin-left: -25%; }
-  .caja-de-preguntas {
+  .caja-de-preguntas, div ul .caja-de-preguntas-two, div ul .caja-de-preguntas-three {
     width: 65%;
     margin-left: 2%; }
   .caja-de-preguntas-two {
@@ -504,7 +491,7 @@ div .submit-index {
     width: 65%;
     margin-left: 20%;
     height: 450px; }
-  .Nombre {
+  .Nombre, .formulario .Apellido, .formulario .Correo, .formulario .Password {
     font-size: 16px;
     padding-bottom: 30px; }
   .Apellido {
@@ -530,7 +517,7 @@ div .submit-index {
     width: auto;
     height: auto;
     font-size: 17px; }
-  .caja-de-preguntas {
+  .caja-de-preguntas, div ul .caja-de-preguntas-two, div ul .caja-de-preguntas-three {
     height: auto; }
   .caja-de-preguntas-two {
     height: auto; }

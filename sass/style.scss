@@ -7,7 +7,14 @@
 
 @import "header";
 @import "index";
+    @mixin sizes($width, $height) {
+        width: $width;
+        height: $height;
+    }
+    @include sizes(1349px);
+
 @import "mi-cuenta";
 @import "preguntas-frecuentes";
 @import "footer";
 @import "media-queries";
+@import "../node_modules/bootstrap/scss/functions";

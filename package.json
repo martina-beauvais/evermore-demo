@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss sass/style.scss css/estilos.css",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\""
-
-  },
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "start": "sass style.scss ./css/style.css -w --no-source-map -s compressed"
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/martina-beauvais/evermore-demo.git"
@@ -22,5 +22,8 @@
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.8.1"
   }
 }

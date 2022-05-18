@@ -445,3 +445,191 @@
 
     }
 }
+@media (min-width: 320px) and (max-width: 575px){
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        min-width: 320px;
+        max-width: 575px;
+        width: 100%;}
+  
+        .header__logo{
+           width: 10px;
+           height: 10px;
+        }
+        .header__name{
+           width: 20px;
+           height: 20px;
+        } 
+    #navbar{
+        background-image: linear-gradient(#CEAB93, #E3CAA5); 
+        padding-left: 50px;
+        font-weight: bolder;
+    }
+    
+    main{
+        width: 100%;
+        background-color: #FFFBE9;
+    }
+  
+    .banner{
+        padding-top: 20px;
+        padding-left: 2%;
+        margin-bottom: 50px;
+    }
+  
+    .banner__imagen{
+        height: 180px;
+        width: 320px;
+        align-content: center;
+    }
+  
+    .h4{
+        text-align: center;
+        margin-left: 0rem;
+    }
+  
+    .card-banner{
+      margin-top: 10px;
+      margin-bottom: 20px;
+      width: 17rem;
+      margin-left:2%;
+    }
+    
+    .cafeteria{
+      display: inline-flex;
+      flex-direction: row;
+      margin-left: -5%;
+    }
+  
+    .libreria{
+        display: inline-flex;
+        flex-direction: row;
+        margin-left: -5%;
+    }
+  
+    .card-coffee{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: -3%;
+  
+        width: 20rem;
+    }
+  
+    .submit-index{
+        margin-left: -30px;
+    }
+  
+    #mi-cuenta{
+        padding-top: 100px;
+        padding-bottom: 50px;
+        font-style: italic;
+        text-align: center;
+        text-decoration: underline;
+    }
+  
+    .display-6{
+        font-size: 17px;
+       text-align: center;
+       margin-left: 2rem;
+    }
+  
+    .formulario{
+        align-content: center;
+        width: 85%;
+        margin-left: 8%;
+        height: 650px;
+    }
+    
+    .Nombre{
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+    
+    .Apellido{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-style: italic;
+        text-align: center;
+        font-size: 16px;
+    }
+    
+    .Correo{
+        padding-bottom: 30px;
+  
+        font-size: 16px;
+    }
+    
+    .Password{
+  
+        font-size: 16px;
+    }
+    
+    .buttom-i{
+        width: 115px;
+        margin-top: 50px;
+        margin-left: 33%;
+    
+    }
+    
+    #registrar{
+        text-align: start;
+        margin-left: 15%;
+        margin-top: 40px;
+        padding-bottom: 40px;
+        width: auto;
+        height: auto;
+    
+        font-size: 17px;
+    }
+  
+    .caja-de-preguntas{
+      padding: 5px;
+      background-color: rgba(206,171,147,0.3);
+  
+      width: 150px;
+      height: 350px;
+      margin-top: 5px;
+      margin-bottom: 440px;
+      margin: 50px;
+  
+      text-align: justify;
+      font-size: 1px;
+    }
+    
+    .caja-de-preguntas-two{
+        height: auto;
+    }
+  
+    .caja-de-preguntas-three{
+        height: auto;
+    }
+  
+    .buttom{
+        margin-left: 45%;
+    }
+    .footer{
+        background-color: #CEAB93;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: -5px;
+    }
+    .col{
+        background-color: #CEAB93;
+        .h3{
+            text-decoration: underline;
+            font-size: 5px;
+            padding-left: 15px;
+        }
+        .item-one{
+            background-color: #CEAB93;
+        }
+    
+        .item-two{
+            background-color: #CEAB93;
+        }
+    }
+    
+  }

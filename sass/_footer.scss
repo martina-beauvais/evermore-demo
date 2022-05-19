@@ -3,8 +3,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
-    @include sizes(auto);
+    @include sizes(1349px, 400px);
     .footer__name{
         margin-top: -24px;
         margin-left: 10px;

@@ -126,7 +126,8 @@ main {
 .submit-index {
   padding-bottom: 50px;
   padding-top: 50px;
-  text-align: center; }
+  text-align: center;
+  margin-left: -100px; }
 
 #mi-cuenta {
   padding-top: 130px;
@@ -183,7 +184,7 @@ div ul {
     padding: 10px;
     background-color: rgba(206, 171, 147, 0.3);
     width: auto;
-    height: 190px;
+    height: 220px;
     margin-top: 5px;
     margin-bottom: 40px;
     margin: 50px;
@@ -191,20 +192,21 @@ div ul {
     font-size: 21px; }
   div ul .caja-de-preguntas-two {
     height: 200px;
-    font-size: 22px; }
+    font-size: 21px;  }
   div ul .caja-de-preguntas-three {
     height: 170px;
-    font-size: 22px; }
+    font-size: 21px; }
 
 div .submit-index {
   padding-bottom: 50px;
   padding-top: 50px;
-  margin-left: 45%;
+  margin-left: 35%;
   text-align: center; }
   div .submit-index .btn {
-    text-align: center; }
+    text-align: center;
+    margin-left: 80px; }
 
-.footer¨ {
+.footer {
   width: 1349px;
   height: auto;
   background-color: #CEAB93;
@@ -612,7 +614,7 @@ div .submit-index {
   }
 
   .submit-index{
-      margin-left: -30px;
+      margin-left: -160px;
   }
 
   #mi-cuenta{
@@ -683,48 +685,65 @@ div .submit-index {
     background-color: rgba(206,171,147,0.3);
 
     width: 150px;
-    height: 350px;
+    height: auto;
     margin-top: 5px;
-    margin-bottom: 440px;
+    margin-bottom: 40px;
     margin: 50px;
 
     text-align: justify;
-    font-size: 1px;
+    font-size: 11px;
   }
   
   .caja-de-preguntas-two{
-      height: auto;
-  }
+    height: 350px;
+    margin-bottom: 440px;
+    }
 
   .caja-de-preguntas-three{
-      height: auto;
+      height: 350px;
   }
 
   .buttom{
-      margin-left: 45%;
+      margin-left: 30%;
   }
   .footer{
-      background-color: #CEAB93;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
+    background-color: #CEAB93;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    
+
+  }
+  .footer__name{
+    margin-top: -20px;
+    margin-left: 10px;
+    
+    height: 40px;
+    width: 120px;
+  }
+  .logo{
+    margin-top: -40px;
   }
   .col{
     background-color: #CEAB93;
+    height: auto;
+    padding:auto;
   }
   .h3{
-      text-decoration: underline;
-      font-size: 5px;
-      padding-left: -5px;
-      padding-top: -10px;
+    text-decoration: underline;
+    font-size: 5px;
+    padding-left: -5px;
+    padding-top: -40px;
   }
   .item-one{
     background-color: #CEAB93;
-    padding-left: 0px;
+    padding-top: -10px;    
+
   }
   
   .item-two{
     background-color: #CEAB93;
     padding-left: 0px;
+    padding: 0.2rem; 
   }
 }

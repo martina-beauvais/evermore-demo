@@ -25,21 +25,24 @@ div{
         .caja-de-preguntas-two{
             @extend .caja-de-preguntas;
             height: 200px;
-            font-size: 22px;
+            font-size: 21px;
+            margin-left: -10px;
         }
         .caja-de-preguntas-three{
             @extend .caja-de-preguntas;
             height: 170px;
 
-            font-size: 22px;
+            font-size: 21px;
     
         }
     }
     .submit-index{  
         padding-bottom: 50px;
         padding-top: 50px;
-        margin-left: 45%;
+        margin-left: 40%;
         text-align: center;
+        padding: 10px;
+
 
         .btn{
             text-align: center;

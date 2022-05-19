@@ -583,29 +583,29 @@
     
         font-size: 17px;
     }
+    ul{
+        .caja-de-preguntas{
+            padding: 5px;
+            background-color: rgba(206,171,147,0.3);
   
-    .caja-de-preguntas{
-      padding: 5px;
-      background-color: rgba(206,171,147,0.3);
+            width: 150px;
+            height: 200px;
+            margin-top: 5px;
+            margin-bottom: 40px;
+            margin: 50px;
   
-      width: 150px;
-      height: 760px;
-      margin-top: 5px;
-      margin-bottom: 440px;
-      margin: 50px;
-  
-      text-align: justify;
-      font-size: 1px;
-    }
+            text-align: justify;
+            font-size: 1px;
+            }
     
-    .caja-de-preguntas-two{
-        height: auto;
-    }
+        .caja-de-preguntas-two{
+            height: 200px;
+        }
   
-    .caja-de-preguntas-three{
-        height: auto;
+        .caja-de-preguntas-three{
+            height: auto;
+        }
     }
-  
     .buttom{
         margin-left: 40%;
     }

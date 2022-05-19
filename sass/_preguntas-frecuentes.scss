@@ -13,7 +13,7 @@ div{
             background-color: rgba(206,171,147,0.3);
     
             width: auto;
-            height: 190px;
+            height: auto;
             margin-top: 5px;
             margin-bottom: 40px;
             margin: 50px;
@@ -24,7 +24,7 @@ div{
         }
         .caja-de-preguntas-two{
             @extend .caja-de-preguntas;
-            height: 200px;
+            height: auto;
             font-size: 21px;
             margin-left: -10px;
         }

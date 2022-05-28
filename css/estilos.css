@@ -28,9 +28,8 @@
       list-style: none; }
 
 main {
-  width: 1349px;
-  height: auto;
-  background-color: #FFFBE9; }
+  background-color: #FFFBE9; 
+}
 
 .banner {
   padding-top: 20px;
@@ -51,38 +50,32 @@ main {
   text-decoration: underline;
   margin-bottom: 0px; }
 
-.card-banner {
-  margin-top: 10px;
-  margin-bottom: 20px;
-  width: 22rem;
-  align-content: center;
-  margin-left: 10px; }
-  .card-banner .card-body {
+.card {
+  margin-top: 30px;
+  margin-bottom: 50px; 
+  align-items: center;
+  background-color: rgba(227,202,165,0.5);
+  
+}
+  .card .card-body {
     background-color: rgba(227, 202, 165, 0.5); }
-    .card-banner .card-body .card-title {
+    .card .card-body .card-title {
       text-align: center;
-      text-decoration: underline; }
-    .card-banner .card-body .card-text {
-      margin-left: 5px; }
-    .card-banner .card-body .submit-i {
+      text-decoration: underline;  }
+    .card .card-body .card-text { 
+      text-align: justify;}
+    .card .card-body .submit-i {
       width: 115px;
       background-color: #CEAB93;
-      margin-left: 100px;
       align-items: flex-end; }
-      .card-banner .card-body .submit-i .btn {
+      .card .card-body .submit-i .btn {
         text-align: center; }
-    .card-banner .card-body .submit-c {
+    .card .card-body .submit-c {
       width: 83px;
-      background-color: #CEAB93;
-      margin-left: 120px; }
-      .card-banner .card-body .submit-c .btn {
-        text-align: center; }
-    .card-banner .card-body .submit {
+      background-color: #CEAB93;}
+    .card .card-body .submit {
       width: 78px;
-      background-color: #CEAB93;
-      margin-left: 120px; }
-      .card-banner .card-body .submit .btn {
-        text-align: center; }
+      background-color: #CEAB93; }
 
 .cafeteria {
   display: inline-flex;
@@ -123,12 +116,11 @@ main {
     height: 40px;
     width: 40px; }
 
-.submit-index {
+.d-grid {
   padding-bottom: 50px;
   padding-top: 50px;
-  text-align: center;
-  margin-left: -100px; }
-
+ align-items: center; }
+ 
 #mi-cuenta {
   padding-top: 130px;
   padding-bottom: 50px;
@@ -155,14 +147,6 @@ main {
   .formulario .Password {
     padding-top: 30px;
     padding-bottom: 30px; }
-
-.buttom-i {
-  width: 115px;
-  background-color: #CEAB93;
-  margin-top: 50px;
-  margin-left: 620px;
-  align-items: flex-end; }
-
 #registrar {
   text-align: center;
   margin-top: 40px;
@@ -356,15 +340,10 @@ div .submit-index {
     transform: .2s ease-in-out; }
   .zoom:hover {
     transform: scale(1.1); }
-  .card-banner {
-    margin-left: -65%;
-    margin-right: 25%;
-    width: 85%;
-    font-size: 15px; }
   .evermore {
     margin-left: -25%; }
   .card-coffee {
-    margin-left: -70%; }
+    margin-left: -10%; }
   .submit {
     margin-left: 60px; }
   .submit-c {
@@ -420,15 +399,70 @@ div .submit-index {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    min-width: 576px;
-    max-width: 767px;
     width: 100%; }
   #navbar {
     background-image: linear-gradient(#CEAB93, #E3CAA5);
     padding-left: 50px;
     font-weight: bolder; }
+  .banner {
+    padding-top: 20px;
+    padding-left: 6%;
+    margin-bottom: 50px; }
+  .banner__imagen {
+    height: 90%;
+    width: 90%;
+    align-content: center; }
+  .h4 {
+    text-align: center;
+    margin-left: 8rem; }
+  .card-coffee{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: -10%;
+    width: 35%;}
+    .card-img-top{
+      margin-left: -10%;
+    }
+    .card-coffee .card-body{
+      background-color: rgba(227,202,165,0.5);
+      width: 80%;
+    }
+      .card-coffee .card-body .card-title{
+        text-align: center;
+        text-decoration: underline;
+      }
+      .card-coffee .card-body .card-text-coffee{
+        text-align: center;
+      }
+      .card-coffee .card-body .card-subtitle{
+        text-align: center;
+      }
+      .card-coffee .card-body .submit-coffee{
+        width: 83px;
+        background-color: #CEAB93;
+        text-align: center;
+        margin-left: 30%;
+      }
+  .formulario {
+    align-content: center;
+    width: 65%;
+    margin-left: 20%;
+    height: 450px; }
+    .formulario .Nombre, .formulario .Apellido, .formulario .Correo, .formulario .Password {
+    font-size: 22px;
+    padding-bottom: 30px; }
+  .d-grid {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    align-items: center; 
+    width: 100%;}
+  #registrar{
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    
+    font-size: 22px;}
   .footer {
-    max-width: 767px;
     width: 100%; } }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -456,12 +490,6 @@ div .submit-index {
   .h4 {
     text-align: center;
     margin-left: -5rem; }
-  .card-banner {
-    margin-top: 10px;
-    margin-bottom: 20px;
-    width: 24rem;
-    margin-left: 20%;
-    margin-right: 25%; }
   .cafeteria {
     display: inline-flex;
     flex-direction: row;
@@ -477,7 +505,8 @@ div .submit-index {
     margin-right: 25%;
     width: 26rem; }
   .submit-index {
-    margin-left: 30%; }
+    align-content: center;
+   padding-left: -30px; }
   #mi-cuenta {
     padding-top: 100px;
     padding-bottom: 50px;
@@ -493,27 +522,19 @@ div .submit-index {
     width: 65%;
     margin-left: 20%;
     height: 450px; }
-  .Nombre, .formulario .Apellido, .formulario .Correo, .formulario .Password {
+    .formulario .Nombre, .formulario .Apellido, .formulario .Correo, .formulario .Password {
     font-size: 16px;
     padding-bottom: 30px; }
-  .Apellido {
+    .formulario .Apellido {
     padding-top: 30px;
-    padding-bottom: 30px;
-    font-style: italic;
-    text-align: center;
     font-size: 16px; }
-  .Correo {
+    .formulario .Correo {
     padding-bottom: 30px;
     font-size: 16px; }
-  .Password {
+    .formulario .Password {
     font-size: 16px; }
-  .buttom-i {
-    width: 115px;
-    margin-top: 50px;
-    margin-left: 43%; }
   #registrar {
-    text-align: start;
-    margin-left: 25%;
+    text-align: center;
     margin-top: 40px;
     padding-bottom: 40px;
     width: auto;
@@ -565,9 +586,9 @@ div .submit-index {
   }
   
   main{
-      width: 100%;
-      height: 1500px;
-      background-color: #FFFBE9;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFBE9;
   }
 
   .banner{
@@ -587,11 +608,11 @@ div .submit-index {
       margin-left: 0rem;
   }
 
-  .card-banner{
+  .card{
     margin-top: 10px;
     margin-bottom: 20px;
     width: 17rem;
-    margin-left:2%;
+    margin-left:10%;
   }
   
   .cafeteria{
@@ -601,84 +622,81 @@ div .submit-index {
   }
 
   .libreria{
-      display: inline-flex;
-      flex-direction: row;
-      margin-left: -5%;
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: -5%;
   }
 
   .card-coffee{
-      margin-top: 10px;
-      margin-bottom: 20px;
-      margin-left: -3%;
-
-      width: 20rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: -3%;
+    width: 20rem;
   }
 
   .submit-index{
-      margin-left: -160px;
+    margin-left: -160px;
   }
 
   #mi-cuenta{
-      padding-top: 100px;
-      padding-bottom: 50px;
-      font-style: italic;
-      text-align: center;
-      text-decoration: underline;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
   }
 
   .display-6{
-      font-size: 17px;
-     text-align: center;
-     margin-left: 2rem;
+    font-size: 17px;
+    text-align: center;
+    margin-left: 2rem;
   }
 
   .formulario{
-      align-content: center;
-      width: 85%;
-      margin-left: 8%;
-      height: 650px;
+    align-content: center;
+    width: 85%;
+    margin-left: 8%;
+    height: 650px;
   }
   
   .Nombre{
-      font-size: 16px;
-      padding-bottom: 30px;
+    font-size: 16px;
+    padding-bottom: 30px;
   }
   
   .Apellido{
-      padding-top: 30px;
-      padding-bottom: 30px;
-      font-style: italic;
-      text-align: center;
-      font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-style: italic;
+    text-align: center;
+    font-size: 16px;
   }
   
   .Correo{
-      padding-bottom: 30px;
-
-      font-size: 16px;
+    padding-bottom: 30px;
+    font-size: 16px;
   }
   
   .Password{
-
-      font-size: 16px;
+    font-size: 16px;
   }
   
   .buttom-i{
-      width: 115px;
-      margin-top: 50px;
-      margin-left: 33%;
+    width: 115px;
+    margin-top: 50px;
+    margin-left: 33%;
   
   }
   
   #registrar{
-      text-align: start;
-      margin-left: 15%;
-      margin-top: 40px;
-      padding-bottom: 40px;
-      width: auto;
-      height: auto;
+    text-align: start;
+    margin-left: 15%;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    width: auto;
+    height: auto;
   
-      font-size: 17px;
+    font-size: 17px;
   }
 
   .caja-de-preguntas{
@@ -701,13 +719,14 @@ div .submit-index {
   }
 
   .buttom{
-      margin-left: 30%;
+    margin-left: 30%;
   }
   .footer{
     background-color: #CEAB93;
     display: flex;
     flex-direction: row;
-    width: auto;
+    width: 100%;
+    height: 100%;
     
 
   }

@@ -7,7 +7,7 @@
     <meta name="description" content="Evermores es un bookshop cafe, donde podrás comprar desde libros en cualquier formato hasta una bebida o bocadillo.">
     <meta name="keywords"  content="EVERMORE, CAFE, CAFETERIA, LIBRERIA, LIBRO, AUDIOLIBROS, COMIDA, BEBIDA, EBOOKS">
     <title>Inicio - Evermore</title> <!--Nombre de la página que aparece en la pestaña del navegador-->
-    <link rel="shortcut icon" href="../imagenes/logo .png">
+    <link rel="shortcut icon" href="./imagenes/logo .png">
     <link rel="stylesheet" href="./css/estilos.css"/>
 
     <!--Bootstrap-->
@@ -24,14 +24,14 @@
     <header class="header">
        <div>
             <a class="nav__enlace" href="../index.html">
-                <img src="../imagenes/logo .png" width="60" height="60" alt="logo" class="header__logo" />
+                <img src="./imagenes/logo .png" width="60" height="60" alt="logo" class="header__logo" />
             </a>
             <a class="nav__enlace" href="../index.html">
-                <img src="../imagenes/evermore.png" width="50" height="150" alt="name" class="header__name" />
+                <img src="./imagenes/evermore.png" width="50" height="150" alt="name" class="header__name" />
             </a>   
         </div>
 
-       <nav class="navbar navbar-expand-lg navbar-light ">
+      <nav class="navbar navbar-expand-lg navbar-light ">
            
            <!--Barra de Navegación-->
            <div class="container-fluid">
@@ -72,7 +72,7 @@
             <div class="banner">
                 <p class="h2"><i>Recientes adquisiciones...</i></p>
                 <div class="zoom">
-                   <img src="../imagenes/TRILOGÍA2 .png" width="640" height="270" alt="banner" class="banner__imagen" />
+                   <img src="./imagenes/TRILOGÍA2 .png" width="640" height="270" alt="banner" class="banner__imagen" />
                 </div>
             </div>
         </section>
@@ -84,46 +84,55 @@
         </section>
         <!--Sección 3-->
         <section>
-            <div class="container px-4">
-                <div class="row g-5">
-                    <div class="col-10 col-md-4">
-                        <div class="card-banner">
-                            <div class="card-body">
-                                <h4 class="card-title">Comunidad para amantes del <br>café y de un buen libro</h4>
-                                <p class="card-text">Evermore es un espacio físico dedicado para las personas amantes 
-                                de una buena lectura, acompañada por un rico café. Ambientado perfectamente para relajarse 
-                                y disfrutar con amigos o por sí mismos. Iniciando sesión, ya sea desde el sitio web o 
-                                la aplicación, se puede ordenar tanto comida como reservar un libro con atenlación.</p>
-                                <div class="submit-i">
-                                 <a class="btn btn-outline-dark" href="../pages/mi-cuenta.html" >Iniciar Sesión</a>
-                                </div>
-                            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                  <div class="card">
+                    <div class="card-body" style="background-color: rgba(227,202,165,0.5);">
+                        <h4 class="card-title">Comunidad para amantes del <br>café y de un buen libro</h4>
+                        <p class="card-text">Evermore es un espacio físico dedicado para las personas amantes 
+                            de una buena lectura, acompañada por un rico café. Ambientado perfectamente para relajarse 
+                            y disfrutar con amigos o por sí mismos. Iniciando sesión, ya sea desde el sitio web o 
+                            la aplicación, se puede ordenar tanto comida como reservar un libro con atenlación.</p>
+                        <div class="submit-i">
+                            <a class="btn btn-outline-dark" href="../pages/mi-cuenta.html" >Iniciar Sesión</a>
+                        </div> 
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="card">
+                    <div class="card-body" style="background-color: rgba(227,202,165,0.5);">
+                        <h4 class="card-title">Cafetería</h4>
+                        <p class="card-text">Nuestra cafetería posee una amplia variedad de bebidas, 
+                            bocdillos y postres. Cuenta con variedades veganas, sin T.A.C.C., entre 
+                            otras cosas. 
+                            <br> Podrás acceder a la cafetería de modo virtual y ordenar por 
+                            aquel medio. Se te pedirá que nos indiques cuál es tu mesa y, tras cumplir 
+                            el tiempo de espera, se alcanzará hasta la mesa que nos haz asignado. 
+                        </p>
+                        <div class="submit-c">
+                            <a class="btn btn-outline-dark" href="../pages/cafeteria.html" >Cafetería</a>  
                         </div>
                     </div>
-                    <div class="col-10 col-md-4">
-                        <div class="card-banner">
-                            <div class="card-body">
-                                 <h4 class="card-title">Cafetería</h4>
-                                 <p class="card-text">Nuestra cafetería posee una amplia variedad de bebidads, 
-                                  bocdillos y postres. Cuenta con variedades veganas, sin T.A.C.C., entre otras variedades.</p>
-                                    <div class="submit-c">
-                                       <a class="btn btn-outline-dark" href="../pages/cafeteriahtml" >Cafetería</a>  
-                                   </div>
-                            </div>
-                        </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                      <div class="card-body" style="background-color: rgba(227,202,165,0.5);">
+                        <h4 class="card-title">Librería</h4>
+                        <p class="card-text">Nuestra librería cuenta con libros en físico 
+                            (ya sea para su compra o lectura dentro del local), en formato 
+                            ebook y en audiolibros. 
+                            <br> Si no deseas comprarlo, podrás reservarlo 
+                            través de nuestra plataforma web y luego retirarlo para leer. 
+                            <br> Si deseas comprarlo, puedes hacerlo tanto en nuestro local
+                            como por nuestra plataforma.
+                        </p>
+                        <div class="submit">
+                            <a class="btn btn-outline-dark" href="../pages/libreria.html" >Librería</a>
+                        </div>  
+                      </div>
                     </div>
-                    <div class="col-10 col-md-4">
-                        <div class="card-banner">
-                            <div class="card-body">
-                                <h4 class="card-title">Librería</h4>
-                                <p class="card-text">Nuestra librería cuenta con libros en físico 
-                                (ya sea para su compra o lectura dentro del local), en formato ebook y en audiolibros.</p>
-                                <div class="submit">
-                                    <a class="btn btn-outline-dark" href="../pages/libreria.html" >Librería</a>
-                                </div>  
-                            </div>
-                       </div>
-                    </div>    
                 </div>
             </div>
         </section>
@@ -131,14 +140,14 @@
         <section>
             <div class="cafeteria">
                 <h1 class="display-6"><i>Cafetería</i></h1>
-                <img src="../imagenes/vinilo-taza-cafe-color.png" width="40" height="40" alt="cafe" class="cafeteria__cafe">
+                <img src="./imagenes/vinilo-taza-cafe-color.png" width="100%" height="100%" alt="cafe" class="cafeteria__cafe">
             </div>
             <div class="container px-4">
                 <div class="row g-5">
                     <div class="col-10 col-md-4">
                         <div class="card-coffee" style="width: 18rem;">
                             <div class="zoom">
-                              <img class="card-img-top" src="../imagenes/cappuccino_PNG41.png" width="600" height="426" alt="Card image cap">
+                              <img class="card-img-top" src="./imagenes/cappuccino_PNG41.png" width="100%" height="100%" alt="Card image cap">
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">Cappuccino</h5>
@@ -152,7 +161,7 @@
                    <div class="col-10 col-md-4">
                         <div class="card-coffee" style="width: 18rem;">
                             <div class="zoom">
-                             <img class="card-img-top" src="../imagenes/original.png" width="600" height="426" alt="Card image cap">
+                             <img class="card-img-top" src="./imagenes/original.png" width="100%" height="100%" alt="Card image cap">
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">Café de caramelo</h5>
@@ -166,7 +175,7 @@
                   <div class="col-10 col-md-4">
                       <div class="card-coffee" style="width: 18rem;">
                           <div class="zoom">
-                             <img class="card-img-top" src="../imagenes/Sweet-Iced-Coffee-PNG-Image-Background.png" width="600" height="426" alt="Card image cap">
+                             <img class="card-img-top" src="./imagenes/Sweet-Iced-Coffee-PNG-Image-Background.png" width="100%" height="100%" alt="Card image cap">
                           </div>
                           <div class="card-body">
                               <h5 class="card-title">Café Helado</h5>
@@ -182,7 +191,7 @@
                    <div class="col-10 col-md-4">
                        <div class="card-coffee" style="width: 18rem;">
                            <div class="zoom">
-                             <img class="card-img-top" src="../imagenes/r0o8msm3ecpvqsvhve3l.png" width="600" height="426" alt="Card image cap">
+                             <img class="card-img-top" src="./imagenes/r0o8msm3ecpvqsvhve3l.png" width="100%" height="100%" alt="Card image cap">
                            </div>
                            <div class="card-body">
                                <h5 class="card-title">Torta de chocolate</h5>
@@ -196,7 +205,7 @@
                <div class="col-10 col-md-4">
                     <div class="card-coffee" style="width: 18rem;">
                         <div class="zoom">
-                           <img class="card-img-top" src="../imagenes/cupcake-de-chocolate.png" width="600" height="426" alt="Card image cap">
+                           <img class="card-img-top" src="./imagenes/cupcake-de-chocolate.png" width="100%" height="100%" alt="Card image cap">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Cupcake de chocolate</h5>
@@ -210,7 +219,7 @@
               <div class="col-10 col-md-4">
                   <div class="card-coffee" style="width: 18rem;">
                       <div class="zoom">
-                         <img class="card-img-top" src="../imagenes/be3316b7049f47fa6f032c85ba2ec8d1.png" width="600" height="426" alt="Card image cap">
+                         <img class="card-img-top" src="./imagenes/be3316b7049f47fa6f032c85ba2ec8d1.png" width="100%" height="100%" alt="Card image cap">
                       </div>
                       <div class="card-body">
                           <h5 class="card-title">Cheescake de frutilla</h5>
@@ -222,18 +231,16 @@
                    </div>
                 </div>
            </div>
-           <div class="mx-auto" style="width: 200px;">
-               <div class="submit-index">
-                 <a class="btn btn-outline-dark" href="../pages/cafeteria.html">Ver más</a>
-               </div>
-          </div>
+           <div class="d-grid gap-2 col-1 mx-auto">
+                <button class="btn btn-outline-dark" type="button" href="../pages/cafeteria.html">Ver más</button>
+           </div>
            
         </section>
         <!--Sección 5 - Productos de la librería -->
         <section>
             <div class="libreria">
                 <h1 class="display-6"><i>Librería</i></h1>
-                <img src="../imagenes/580b585b2edbce24c47b276e.png" width="40" height="40" alt="libro" class="libreria__libro">
+                <img src="./imagenes/580b585b2edbce24c47b276e.png" width="100%" height="100%" alt="libro" class="libreria__libro">
                 
             </div>
             <div class="container px-4">
@@ -241,7 +248,7 @@
                     <div class="col-10 col-md-4">
                         <div class="card-coffee" style="width: 18rem;">
                             <div class="zoom">
-                               <img class="card-img-top" src="../imagenes/boulevard-2.png" width="1163" height="1256" alt="Card image cap">
+                               <img class="card-img-top" src="./imagenes/boulevard-2.png" width="100%" height="100%" alt="Card image cap">
                             </div>
                             <div class="card-body">
                                  <h5 class="card-title">Boulevard</h5>
@@ -256,7 +263,7 @@
                     <div class="col-10 col-md-4">
                         <div class="card-coffee" style="width: 18rem;">
                             <div class="zoom">
-                                 <img class="card-img-top" src="../imagenes/orgullo y prejuicio .png" width="1163" height="1256" alt="Card image cap">
+                                 <img class="card-img-top" src="./imagenes/orgullo y prejuicio .png" width="100%" height="100%" alt="Card image cap">
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">Orgullo y Prejuicio</h5>
@@ -271,7 +278,7 @@
                     <div class="col-10 col-md-4">
                         <div class="card-coffee" style="width: 18rem;">
                             <div class="zoom">                            
-                                <img class="card-img-top" src="../imagenes/supernova.png" width="1163" height="1256" alt="Card image cap">
+                                <img class="card-img-top" src="./imagenes/supernova.png" width="100%" height="100%" alt="Card image cap">
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">Supernova</h5>
@@ -288,7 +295,7 @@
                     <div class="col-10 col-md-4">
                         <div class="card-coffee" style="width: 18rem;">
                             <div class="zoom">
-                               <img class="card-img-top" src="../imagenes/una-educacion-mortal.png" width="1163" height="1256" alt="Card image cap">
+                               <img class="card-img-top" src="./imagenes/una-educacion-mortal.png" width="100%" height="100%" alt="Card image cap">
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">Una Educación Mortal</h5>
@@ -303,7 +310,7 @@
                     <div class="col-10 col-md-4">
                          <div class="card-coffee" style="width: 18rem;">
                              <div class="zoom">
-                                 <img class="card-img-top" src="../imagenes/matar-un-reino.png" width="1163" height="1256" alt="Card image cap"> 
+                                 <img class="card-img-top" src="./imagenes/matar-un-reino.png" width="100%" height="100%" alt="Card image cap"> 
                              </div>
                              <div class="card-body">
                                  <h5 class="card-title">Matar un Reino</h5>
@@ -318,7 +325,7 @@
                     <div class="col-10 col-md-4">
                         <div class="card-coffee" style="width: 18rem;">
                             <div class="zoom">
-                               <img class="card-img-top"src="../imagenes/asesino-de-brujas-2.png" width="1163" height="1256" alt="Card image cap">
+                               <img class="card-img-top"src="./imagenes/asesino-de-brujas-2.png" width="100%" height="100%" alt="Card image cap">
                              </div>
                              <div class="card-body">
                                 <h5 class="card-title">Asesino de Bruja</h5>
@@ -331,11 +338,9 @@
                       </div>
                    </div>  
                </div>
-                <div class="mx-auto" style="width: 200px;">
-                    <div class="submit-index">
-                      <a class="btn btn-outline-dark" href="../pages/libreria.html">Ver más</a>
-                    </div>
-                </div>
+               <div class="d-grid gap-2 col-1 mx-auto">
+                  <button class="btn btn-outline-dark" type="button" href="../pages/libreria.html">Ver más</button>
+               </div>
             </div>
         </section>
     </main>

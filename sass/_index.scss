@@ -1,5 +1,5 @@
 main{
-    @include sizes(1349px) ;
+    @include sizes(1349px,auto) ;
 
     background-color: #FFFBE9;
 }
@@ -30,49 +30,30 @@ main{
     }
 }
 
-.card-banner{
-    margin-top: 10px;
-    margin-bottom: 20px;
-    width: 22rem;
+.card{
+    margin-top: 30px;
+    margin-bottom: 50px;
     align-content: center;
-    margin-left: 10px;
+    background-color: rgba(227,202,165,0.5);
 
-    .card-body{
-        background-color: rgba(227,202,165,0.5);
-
-        .card-title{
-            text-align: center;
-            text-decoration: underline;
-        }
-        .card-text{
-            margin-left: 5px;
-        }
-        .submit-i{
-            width: 115px;
-            background-color: #CEAB93;
-            margin-left: 100px;
-            align-items: flex-end;
-            .btn{
-                text-align: center;
-            } 
-        }
-        .submit-c{
-            width: 83px;
-            background-color: #CEAB93;
-            margin-left: 120px;
-            .btn{
-                text-align: center;
-            }
-        }
-        .submit{
-            width: 78px;
-            background-color: #CEAB93;
-            margin-left: 120px;
-            .btn{
-                text-align: center;
-            }
-        }
-                
+    .card-title{
+        text-align: center;
+        text-decoration: underline;
+    }
+    .card-text{
+        text-align: justify;
+    }
+    .submit-i{
+        width: 115px;
+        background-color: #CEAB93;
+    }
+    .submit-c{
+        width: 83px;
+        background-color: #CEAB93;
+    }
+    .submit{
+        width: 78px;
+        background-color: #CEAB93;
     }
 }
 .cafeteria{
@@ -105,8 +86,6 @@ main{
         }
         .card-text-coffee{
             text-align: center;
-
-            
         }
         .card-subtitle{
             text-align: center;
@@ -134,7 +113,7 @@ main{
     }
 }
 
-.submit-index{  
+.d-grid{  
     padding-bottom: 50px;
     padding-top: 50px;
     text-align: center;

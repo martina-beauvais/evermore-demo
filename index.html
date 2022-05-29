@@ -21,7 +21,7 @@
 <body> 
     <!--Parte visible del documento-->
     <!--Se han agregado solo unas pocas imágenes para mayor comprensión del wireframe-->
-    <header class="header">
+    <header class="header ">
        <div>
             <a class="nav__enlace" href="../index.html">
                 <img src="./imagenes/logo .png" width="60" height="60" alt="logo" class="header__logo" />
@@ -30,8 +30,8 @@
                 <img src="./imagenes/evermore.png" width="50" height="150" alt="name" class="header__name" />
             </a>   
         </div>
-
-      <nav class="navbar navbar-expand-lg navbar-light ">
+      
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light fixed-top">
            
            <!--Barra de Navegación-->
            <div class="container-fluid">
@@ -86,8 +86,8 @@
         <section>
             <div class="row">
                 <div class="col-sm-4">
-                  <div class="card">
-                    <div class="card-body" style="background-color: rgba(227,202,165,0.5);">
+                  <div class="card-banner">
+                    <div class="card-body">
                         <h4 class="card-title">Comunidad para amantes del <br>café y de un buen libro</h4>
                         <p class="card-text">Evermore es un espacio físico dedicado para las personas amantes 
                             de una buena lectura, acompañada por un rico café. Ambientado perfectamente para relajarse 
@@ -100,8 +100,8 @@
                   </div>
                 </div>
                 <div class="col-sm-4">
-                  <div class="card">
-                    <div class="card-body" style="background-color: rgba(227,202,165,0.5);">
+                  <div class="card-banner">
+                    <div class="card-body">
                         <h4 class="card-title">Cafetería</h4>
                         <p class="card-text">Nuestra cafetería posee una amplia variedad de bebidas, 
                             bocdillos y postres. Cuenta con variedades veganas, sin T.A.C.C., entre 
@@ -117,8 +117,8 @@
                   </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="card">
-                      <div class="card-body" style="background-color: rgba(227,202,165,0.5);">
+                    <div class="card-banner">
+                      <div class="card-body">
                         <h4 class="card-title">Librería</h4>
                         <p class="card-text">Nuestra librería cuenta con libros en físico 
                             (ya sea para su compra o lectura dentro del local), en formato 
@@ -231,7 +231,7 @@
                    </div>
                 </div>
            </div>
-           <div class="d-grid gap-2 col-1 mx-auto">
+           <div class="d-grid gap-1 col-2 mx-auto">
                 <button class="btn btn-outline-dark" type="button" href="../pages/cafeteria.html">Ver más</button>
            </div>
            
@@ -356,16 +356,28 @@
                 <h3 class="h3">Explora</h3>
                 <dt>
                   <dd class="item-one">
-                      <a href="./pages/cafeteria.html" class="footer__nav">Cafetería</a>
+                        <a href="./pages/cafeteria.html" class="footer__nav">
+                            <i class="bi bi-cup-fill"></i>
+                            Cafetería
+                        </a>
                   </dd>
                   <dd class="item-one">
-                      <a href="./pages/libreria.html" class="footer__nav">Librería</a>
+                      <a href="./pages/libreria.html" class="footer__nav">
+                            <i class="bi bi-book-half"></i>
+                            Librería
+                        </a>
                   </dd>
                   <dd class="item-one">
-                      <a href="./pages/preguntas-frecuentes.html" class="footer__nav">Preguntas Frecuentes</a>
+                        <a href="./pages/preguntas-frecuentes.html" class="footer__nav">
+                            <i class="bi bi-patch-question-fill"></i> 
+                            Preguntas Frecuentes
+                        </a>
                   </dd>
                   <dd class="item-one">
-                      <a href="./pages/mi-cuenta.html" class="footer__nav">Mi cuenta</a>
+                        <a href="./pages/mi-cuenta.html" class="footer__nav">
+                            <i class="bi bi-person-circle"></i>
+                            Mi cuenta
+                        </a>
                   </dd>
                 </dt>
             </div>

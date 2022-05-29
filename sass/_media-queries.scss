@@ -313,6 +313,37 @@
             }
         }
     }
+    div{
+        ul{
+            list-style: none;
+            .caja-de-preguntas{
+                padding: 10px;
+                background-color: rgba(206,171,147,0.3);
+        
+                width: auto;
+                height: auto;
+                margin-top: 5px;
+                margin-bottom: 0px;
+                margin: 50px;
+    
+                text-align: justify;
+                font-size: 20px;
+        
+            }
+            .caja-de-preguntas-two{
+                @extend .caja-de-preguntas;
+                height: 220px;
+                font-size: 20px;
+            }
+            .caja-de-preguntas-three{
+                @extend .caja-de-preguntas;
+                height: 170px;
+                font-size: 20px;
+        
+            }
+        }
+        
+    }
     .formulario{
         border: solid 5px rgb(206,171,147);
         background-color: rgba(206,171,147,0.3);

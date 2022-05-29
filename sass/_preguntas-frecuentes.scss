@@ -1,52 +1,17 @@
 .preguntas-frecuentes{
     padding-top: 110px;
-    padding-bottom:60px;
     font-style: italic;
     text-align: center;
     text-decoration: underline;
 }
-div{
-    ul{
-        list-style: none;
-        .caja-de-preguntas{
-            padding: 10px;
-            background-color: rgba(206,171,147,0.3);
-    
-            width: auto;
-            height: auto;
-            margin-top: 5px;
-            margin-bottom: 40px;
-            margin: 50px;
-
-            text-align: justify;
-            font-size: 21px;
-    
-        }
-        .caja-de-preguntas-two{
-            @extend .caja-de-preguntas;
-            height: auto;
-            font-size: 21px;
-            margin-left: -10px;
-        }
-        .caja-de-preguntas-three{
-            @extend .caja-de-preguntas;
-            height: 170px;
-
-            font-size: 21px;
-    
-        }
-    }
-    .submit-index{  
-        padding-bottom: 50px;
-        padding-top: 50px;
-        margin-left: 40%;
-        text-align: center;
-        padding: 10px;
-
-
-        .btn{
-            text-align: center;
-        }
-    }
+.caja-de-preguntas{
+    width: 80%;
+  height: 100%;
+  margin-top: 10%;
+  padding-bottom: 5%;
+  background-color: rgba(227, 202, 165, 0.5);
+  text-align: justify;
+  font-size: 21px;
+  margin-left: 10%;
     
 }

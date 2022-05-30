@@ -1,605 +1,383 @@
-@media (min-width:1200px) and (max-width:1400px){
-    .header{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        min-width: 1200px;
-        width: 100%;
-    }
-
-
-    .banner{
-        padding-top: 70px;
-        padding-bottom: 30px;
-        padding-left: 25%;
-        font-style: italic;
-        font-size: 20px;
-    }
-
-    .zoom{
-        transform: .2s ease-in-out;
-    }
-    
-    .zoom:hover{
-        transform: scale(1.1);
-    }
-
-    .card-banner{
-        margin-top: 10px;
-        margin-bottom: 20px;
-        margin-left: -12%;
-        width: auto;
-    }
-    .card-coffee{
-        margin-left: -10%;
-    }
-
-    .caja-de-preguntas{
-        width: 75%;
-        margin-left: 5%;
-    }
-    
-    .caja-de-preguntas-two{
-        width: 75%;
-        margin-left: 5%;
-    }
-    .caja-de-preguntas-three{
-        margin-left: 5%;
-    }
-
-    .buttom{    
-        margin-left: 40%;
-        margin-top: 50px;
-        width: 78px;
-        background-color: #CEAB93;
-    }
-
-    #mi-cuenta{
-        margin-left: -10%;
-    }
-    
-    .formulario{
-        margin-left: 22%;
-    }
-
-    .buttom-i{
-        margin-left: 40%;
-    
-    }
-    
-    #registrar{
-        margin-left: -10%;
-    
-    }
-    .footer{
-        min-width: 1200px;
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .h3{
-        text-decoration: underline;
-        font-size: 30px;
-        padding-left: 35%;
-        justify-content: space-between;
-    }
-    
-    
-    .item-one{
-        padding-left: 40%;
-        width: auto;
-        background-color: #CEAB93;
-
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        
-
-    }
-    
-    .item-two{
-        padding-left: 40%;
-        width:auto;
-        background-color: #CEAB93;
-
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-
-    }
-
-    .col{
-        justify-content: space-evenly;
-    }
-
-    .copyright{
-        text-align: center;
-        justify-content: space-around;
-
-    }
-}
-
-@media (min-width:992px) and (max-width: 1199px) {
-    .header{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        min-width: 992px;
-        width:100%;
-    
-    }
-
-    .banner{
-        padding-top: 70px;
-        padding-bottom: 30px;
-        padding-left: 10%;
-        font-style: italic;
-        font-size: 20px;
-    }
-
-    .zoom{
-        transform: .2s ease-in-out;
-    }
-    
-    .zoom:hover{
-        transform: scale(1.1);
-    }
-    .card{
-        margin-left: -65%;
-        margin-right: 25%;
-        width: 85%;
-        font-size: 15px;
-    }
-    .evermore{
-        margin-left: -25%;
-    }
-    .card-coffee{
-        margin-left: -10%;
-    }
-
-    .submit{
-        margin-left: 60px;
-    }
-    
-    .submit-c{
-        margin-left: 60px;
-    }
-    
-    .submit-i{
-        margin-left: 40px;
-    }
-
-    .submit-index{
-        margin-left: -60%;
-    }
-
-    .preguntas-frecuentes{
-        margin-left: -25%;
-    }
-
-    .caja-de-preguntas{
-        width: 65%;
-        margin-left: 2%;
-    }
-    
-    .caja-de-preguntas-two{
-        width: 65%;
-        margin-left: 2%;
-    }
-    .caja-de-preguntas-three{
-        margin-left: 3%;
-        width: 90%;
-    }
-
-    .buttom{    
-        margin-left: 33%;
-
-    }
-
-    #mi-cuenta{
-        margin-left: -25%;
-    }
-    
-    .formulario{
-        margin-left: 15%;
-    }
-
-    .buttom-i{
-        margin-left: 33%;
-    
-    }
-    
-    #registrar{
-        margin-left: -30%;
-    
-    }
-
-    .footer{
-        width: 100%;
-    }
-    .h3{
-        text-decoration: underline;
-        font-size: 30px;
-        padding-left: 25%;
-        min-width: fit-content;
-    }
-    
-    
-    .item-one{
-        padding-left: 30%;
-        width: auto;
-        background-color: #CEAB93;
-
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        
-
-    }
-    
-    .item-two{
-        padding-left: 30%;
-        width:auto;
-        background-color: #CEAB93;
-
-    }
-
-    .copyright{
-        text-align: center;
-
-    }
-}
-
-@media (min-width:768px) and (max-width:991px){
-    .header{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        min-width: 576px;
-        max-width: 767px;
-        width: 100%;
-    }
-
-    #navbar{
-        background-image: linear-gradient(#CEAB93, #E3CAA5); 
-        padding-left: 50px;
-        font-weight: bolder;
-    }
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      min-width: 1200px;
+      width: 100%; }
     .banner {
-        padding-top: 20px;
-        padding-left: 6%;
-        margin-bottom: 50px; 
-    }
-    .banner__imagen {
-        height: 90%;
-        width: 90%;
-        align-content: center; 
-    }
-    .h4 {
-        text-align: center;
-        margin-left: 8rem; 
-    }
-    .card-coffee{
-        .zoom{
-            transform: .2s;
-        }
-                    
-        .zoom:hover{
-            transform: scale(1.1);
-        }
-    
-        .card-body{
-            background-color: rgba(227,202,165,0.5);
-                    
-            .card-title{
-                text-align: center;
-                text-decoration: underline;
-            }
-            .card-text-coffee{
-                text-align: center;
-            }
-            .card-subtitle{
-                text-align: center;
-            }
-            p{
-                text-decoration:solid; 
-            }            
-            .submit-coffee{
-                width: 83px;
-                background-color: #CEAB93;
-                margin-left: 0px;
-            }
-        }
-    }
-    div{
-        ul{
-            list-style: none;
-            .caja-de-preguntas{
-                padding: 10px;
-                background-color: rgba(206,171,147,0.3);
-        
-                width: auto;
-                height: auto;
-                margin-top: 5px;
-                margin-bottom: 0px;
-                margin: 50px;
-    
-                text-align: justify;
-                font-size: 20px;
-        
-            }
-            .caja-de-preguntas-two{
-                @extend .caja-de-preguntas;
-                height: 220px;
-                font-size: 20px;
-            }
-            .caja-de-preguntas-three{
-                @extend .caja-de-preguntas;
-                height: 170px;
-                font-size: 20px;
-        
-            }
-        }
-        
-    }
-    .formulario{
-        border: solid 5px rgb(206,171,147);
-        background-color: rgba(206,171,147,0.3);
-        
-        width: 580px;
-        height: 500px;
-    
-        margin-left: 400px;
-    
-        .Nombre{
-            padding-top: 60px;
-            padding-bottom: 50px;
-            font-style: italic;
-            text-align: center;
-            font-size: 20px;
-        }
-        
-        .Apellido{
-            @extend .Nombre;
-            padding-top: 30px;
-        }
-        
-        .Correo{
-            @extend .Nombre;
-            padding-top: 30px;
-        }
-        
-        .Password{
-            @extend .Nombre;
-            padding-top: 30px;
-            padding-bottom: 30px;
-        }
-    }
-    .d-grid {
-        padding-bottom: 50px;
-        padding-top: 50px;
-       align-items: center; 
-       width: 100%;
-    }
-        
-    #registrar{
-        text-align: center;
-        margin-top: 40px;
-        padding-bottom: 40px;
-        width: auto;
-        height: auto;
-        
-        font-size: 22px;
-    }
+      padding-top: 70px;
+      padding-bottom: 30px;
+      padding-left: 25%;
+      font-style: italic;
+      font-size: 20px; }
+    .zoom {
+      transform: .2s ease-in-out; }
+    .zoom:hover {
+      transform: scale(1.1); }
+    .card-banner {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      width: auto; }
+    .card-coffee {
+      margin-left: -10%; }
+    .buttom {
+      margin-left: 40%;
+      margin-top: 50px;
+      width: 78px;
+      background-color: #CEAB93; }
+    .formulario {
+      margin-left: 28%; }
+    #registrar {
+      margin-left: -0%; }
     .footer {
-        width: 100%; 
-    }
-}
-@media (min-width: 576px) and (max-width:767px){
-    .header{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        min-width: 576px;
-        max-width: 767px;
-        width: 100%;
-    }
-
-    #navbar{
-        background-image: linear-gradient(#CEAB93, #E3CAA5); 
-        padding-left: 50px;
-        font-weight: bolder;
-    }
-    
-    main{
-        width: 100%;
-    }
-
-    .banner{
-        padding-top: 20px;
-        padding-left: 5%;
-        margin-bottom: 50px;
-    }
-
+      min-width: 1200px;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+    .h3 {
+      text-decoration: underline;
+      font-size: 30px;
+      padding-left: 35%;
+      justify-content: space-between; }
+    .item-one {
+      padding-left: 40%;
+      width: auto;
+      background-color: #CEAB93;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+    .item-two {
+      padding-left: 40%;
+      width: auto;
+      background-color: #CEAB93;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+    .col {
+      justify-content: space-evenly; }
+    .copyright {
+      text-align: center;
+      justify-content: space-around; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+    .header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      min-width: 992px;
+      width: 100%; }
+    .banner {
+      padding-top: 70px;
+      padding-bottom: 30px;
+      padding-left: 10%;
+      font-style: italic;
+      font-size: 20px; }
     .banner__imagen{
-        height: 250px;
-        width: 500px;
-        align-content: center;
+      width: 80%;
+      height: 80%;
     }
-
-    .h4{
-        text-align: center;
-        margin-left: -5rem;
+    .zoom {
+      transform: .2s ease-in-out; }
+    .zoom:hover {
+      transform: scale(1.1); }
+    .evermore {
+      margin-left: -25%; }
+    .card-banner{
+      margin-left: -10%;
     }
-    
-    .cafeteria{
-        display: inline-flex;
-        flex-direction: row;
-        margin-left: 15%;
+    .card-coffee {
+      margin-left: -10%; }
+    .submit {
+      margin-left: 60px; }
+    .submit-c {
+      margin-left: 60px; }
+    .submit-i {
+      margin-left: 40px; }
+    .submit-index {
+      margin-left: -60%; }
+    .preguntas-frecuentes {
+      margin-left: -0%; }
+    .card-preguntas {
+      width: 80%;
+      height: 100%;
+      margin-top: 10%;
+      padding-bottom: 5%;
+      background-color: rgba(227, 202, 165, 0.5);
+      text-align: justify;
+      font-size: 21px;
+      margin-left: 10%; }
+    #mi-cuenta {
+      margin-left: -0%; }
+    .formulario {
+      margin-left: 25%; }
+    #registrar {
+      margin-left: -0%; }
+    .footer {
+      width: 100%; }
+    .h3 {
+      text-decoration: underline;
+      font-size: 30px;
+      padding-left: 25%;
+      min-width: fit-content; }
+    .item-one {
+      padding-left: 30%;
+      width: auto;
+      background-color: #CEAB93;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+    .item-two {
+      padding-left: 30%;
+      width: auto;
+      background-color: #CEAB93; }
+    .copyright {
+      text-align: center; } }
+@media (min-width: 768px) and (max-width: 991px) {
+    .header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%; }
+    #offcanvasNavbar {
+      background-image: linear-gradient(#CEAB93, #E3CAA5);
+      padding-left: 10px;
+      font-weight: bolder; }
+    .banner {
+      padding-top: 20px;
+      padding-left: 6%;
+      margin-bottom: 50px; }
+    .banner__imagen {
+      height: 90%;
+      width: 90%;
+      align-content: center; }
+    .h4 {
+      text-align: center;
+      margin-left: 8rem; }
+    .card-banner{
+      margin-left: -10%;
     }
-
-    .libreria{
-        display: inline-flex;
-        flex-direction: row;
-        margin-left: 15%;
-    }
-
     .card-coffee{
-        margin-top: 10px;
-        margin-bottom: 20px;
-        margin-left: 30%;
-        margin-right: 25%;
-
-        width: 26rem;
-    }
-
-    .submit-index{
-        margin-left: 30%;
-    }
-
-    #mi-cuenta{
-        padding-top: 100px;
-        padding-bottom: 50px;
-        font-style: italic;
-        text-align: center;
-        text-decoration: underline;
-    }
-
-    .display-6{
-        font-size: 17px;
-       text-align: center;
-       margin-left: 2rem;
-    }
-
-    .formulario{
-        align-content: center;
-        width: 65%;
-        margin-left: 20%;
-        height: 450px;
-    }
-    
-    .Nombre{
-        font-size: 16px;
-        padding-bottom: 30px;
-    }
-    
-    .Apellido{
-        padding-top: 30px;
-        padding-bottom: 30px;
-        font-style: italic;
-        text-align: center;
-        font-size: 16px;
-    }
-    
-    .Correo{
-        padding-bottom: 30px;
-
-        font-size: 16px;
-    }
-    
-    .Password{
-
-        font-size: 16px;
-    }
-    
-    .buttom-i{
-        width: 115px;
-        margin-top: 50px;
-        margin-left: 43%;
-    
-    }
-    
+      margin-top: 10px;
+      margin-bottom: 20px;
+      margin-left: -10%;
+      width: 35%;}
+      .card-img-top{
+        margin-left: -10%;
+      }
+      .card-coffee .card-body{
+        background-color: rgba(227,202,165,0.5);
+        width: 80%;
+      }
+        .card-coffee .card-body .card-title{
+          text-align: center;
+          text-decoration: underline;
+        }
+        .card-coffee .card-body .card-text-coffee{
+          text-align: center;
+        }
+        .card-coffee .card-body .card-subtitle{
+          text-align: center;
+        }
+        .card-coffee .card-body .submit-coffee{
+          width: 83px;
+          background-color: #CEAB93;
+          text-align: center;
+          margin-left: 30%;
+        }
+    .card-preguntas {
+      width: 100%;
+      height: 100%;
+      margin-top: 15%;
+      padding-bottom: 5%;
+      background-color: rgba(227, 202, 165, 0.5);
+      text-align: justify;
+      font-size: 18px;
+      margin-left: 1%;}
+   
+    .formulario {
+      align-content: center;
+      width: 65%;
+      margin-left: 20%;
+      height: 450px; }
+      .formulario .Nombre, .formulario .Apellido, .formulario .Correo, .formulario .Password {
+      font-size: 22px;
+      padding-bottom: 30px; }
+    .d-grid {
+      padding-bottom: 50px;
+      padding-top: 50px;
+      align-items: center; 
+      width: 100%;}
     #registrar{
-        text-align: start;
-        margin-left: 25%;
-        margin-top: 40px;
-        padding-bottom: 40px;
-        width: auto;
-        height: auto;
-    
-        font-size: 17px;
-    }
-
-    .caja-de-preguntas{
-        height: auto;
-    }
-    
-    .caja-de-preguntas-two{
-        height: auto;
-    }
-
-    .caja-de-preguntas-three{
-        height: auto;
-    }
-
-    .buttom{
-        margin-left: 45%;
-    }
-    .footer{
-        width: 100%;
-    }
-    .logo{
-        max-width: 767px;
-
-    }
+      text-align: center;
+      margin-top: 40px;
+      padding-bottom: 40px;
+      
+      font-size: 22px;}
+    .footer {
+      width: 100%;}
+      .footer .footer__name{
+        margin-top: -3%;
+      } 
     .h3{
-        text-decoration: underline;
-        font-size: 30px;
-    }
-    
-    
+      text-decoration: underline;
+      font-size: 5px;
+      background-color: #CEAB93;
+      text-align: center;}
     .item-one{
-        width: 100%;
-        background-color: #CEAB93;
-
-    }
+      background-color: #CEAB93;
+      text-align: justify;
+      margin-left: 10%; }
     
     .item-two{
-        width:100%;
-        background-color: #CEAB93;
-
+      background-color: #CEAB93;
+      text-align: justify; 
+      margin-left: 10%;} }
+@media (min-width: 576px) and (max-width: 767px) {
+    .header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      min-width: 576px;
+      max-width: 767px;
+      width: 100%; }
+    #offcanvasNavbar {
+      background-image: linear-gradient(#CEAB93, #E3CAA5);
+      padding-left: 10px;
+      font-weight: bolder; }
+    main {
+      width: 100%; }
+    .banner {
+      padding-top: 20px;
+      padding-left: 5%;
+      margin-bottom: 50px; }
+    .banner__imagen {
+      height: 250px;
+      width: 500px;
+      align-content: center; }
+    .h4 {
+      text-align: center;
+      margin-left: -5rem; }
+    .card-banner{
+      margin-left: -10%;
     }
-}
+    .cafeteria {
+      display: inline-flex;
+      flex-direction: row;
+      margin-left: 0%; }
+    .libreria {
+      display: inline-flex;
+      flex-direction: row;
+      margin-left: 0%; }
+    .card-coffee {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      margin-left: 30%;
+      margin-right: 25%;
+      width: 26rem; }
+    .submit-index {
+      align-content: center;
+     padding-left: -30px; }
+    #mi-cuenta {
+      padding-top: 100px;
+      padding-bottom: 50px;
+      font-style: italic;
+      text-align: center;
+      text-decoration: underline; }
+    .display-6 {
+      font-size: 17px;
+      text-align: center;
+      margin-left: 2rem; }
+    .formulario {
+      align-content: center;
+      width: 65%;
+      margin-left: 20%;
+      height: 450px; }
+      .formulario .Nombre, .formulario .Apellido, .formulario .Correo, .formulario .Password {
+      font-size: 16px;
+      padding-bottom: 30px; }
+      .formulario .Apellido {
+      padding-top: 30px;
+      font-size: 16px; }
+      .formulario .Correo {
+      padding-bottom: 30px;
+      font-size: 16px; }
+      .formulario .Password {
+      font-size: 16px; }
+    #registrar {
+      text-align: center;
+      margin-top: 40px;
+      padding-bottom: 40px;
+      width: auto;
+      height: auto;
+      font-size: 17px; }
+    .card-preguntas{
+      width: 100%;
+      height: 100%;
+      margin-top: 15%;
+      padding-bottom: 5%;
+      background-color: rgba(227, 202, 165, 0.5);
+      text-align: justify;
+      font-size: 18px;
+      margin-left: 1%;
+    }
+    .buttom {
+      margin-left: 45%; }
+    .footer {
+      width: 100%; }
+    .h3{
+      text-decoration: underline;
+      font-size: 12px;
+      background-color: #CEAB93;
+      text-align: center; }
+    .item-one{
+      background-color: #CEAB93;
+      font-size: 15px;
+      margin-left: 10%;}
+    .item-two{
+      background-color: #CEAB93;
+      font-size: 15px;
+      margin-left: 10%; } }
 @media (min-width: 320px) and (max-width: 575px){
     .header{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        min-width: 320px;
-        max-width: 575px;
+  
         width: 100%;}
   
         .header__logo{
-           width: 10px;
-           height: 10px;
+           width: 100%;
+           height: 100%;
+           text-decoration: none;
         }
         .header__name{
-           width: 20px;
-           height: 20px;
+           width: 5px;
+           height: 10px;
+           text-decoration: none;
+  
         } 
-    #navbar{
+    #offcanvasNavbar{
         background-image: linear-gradient(#CEAB93, #E3CAA5); 
-        padding-left: 50px;
+        padding-left: 10px;
         font-weight: bolder;
     }
     
     main{
-        width: 100%;
-        height: auto;
-        background-color: #FFFBE9;
+      width: 100%;
+      height: 100%;
+      background-color: #FFFBE9;
     }
   
     .banner{
         padding-top: 20px;
-        padding-left: 2%;
+        padding-left: 1%;
         margin-bottom: 50px;
     }
   
     .banner__imagen{
-        height: 180px;
-        width: 320px;
+        height: 100%;
+        width: 100%;
         align-content: center;
     }
   
@@ -611,8 +389,7 @@
     .card-banner{
       margin-top: 10px;
       margin-bottom: 20px;
-      width: 17rem;
-      margin-left:2%;
+      width: auto;
     }
     
     .cafeteria{
@@ -622,144 +399,123 @@
     }
   
     .libreria{
-        display: inline-flex;
-        flex-direction: row;
-        margin-left: -5%;
+      display: inline-flex;
+      flex-direction: row;
+      margin-left: -5%;
     }
   
     .card-coffee{
-        margin-top: 10px;
-        margin-bottom: 20px;
-        margin-left: -3%;
-  
-        width: 20rem;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      margin-left: auto;
+      width: auto;
     }
   
     .submit-index{
-        margin-left: 0px;
+      margin-left: -160px;
     }
   
     #mi-cuenta{
-        padding-top: 100px;
-        padding-bottom: 50px;
-        font-style: italic;
-        text-align: center;
-        text-decoration: underline;
+      padding-top: 100px;
+      padding-bottom: 50px;
+      font-style: italic;
+      text-align: center;
+      text-decoration: underline;
     }
   
     .display-6{
-        font-size: 17px;
-       text-align: center;
-       margin-left: 2rem;
+      font-size: 17px;
+      text-align: center;
+      margin-left: 2rem;
     }
   
     .formulario{
-        align-content: center;
-        width: 85%;
-        margin-left: 8%;
-        height: 650px;
+      align-content: center;
+      width: 85%;
+      margin-left: 8%;
+      height: 650px;
     }
     
     .Nombre{
-        font-size: 16px;
-        padding-bottom: 30px;
+      font-size: 16px;
+      padding-bottom: 30px;
     }
     
     .Apellido{
-        padding-top: 30px;
-        padding-bottom: 30px;
-        font-style: italic;
-        text-align: center;
-        font-size: 16px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      font-style: italic;
+      text-align: center;
+      font-size: 16px;
     }
     
     .Correo{
-        padding-bottom: 30px;
-  
-        font-size: 16px;
+      padding-bottom: 30px;
+      font-size: 16px;
     }
     
     .Password{
+      font-size: 16px;
+    }
   
-        font-size: 16px;
-    }
-    
-    .buttom-i{
-        width: 115px;
-        margin-top: 50px;
-        margin-left: 33%;
-    
-    }
     
     #registrar{
-        text-align: start;
-        margin-left: 15%;
-        margin-top: 40px;
-        padding-bottom: 40px;
-        width: auto;
-        height: auto;
+      text-align: start;
+      margin-left: 15%;
+      margin-top: 40px;
+      padding-bottom: 40px;
+      width: auto;
+      height: auto;
     
-        font-size: 17px;
+      font-size: auto;
     }
-    ul{
-        .caja-de-preguntas{
-            padding: 5px;
-            background-color: rgba(206,171,147,0.3);
   
-            width: 150px;
-            height: 200px;
-            margin-top: 5px;
-            margin-bottom: 40px;
-            margin: 50px;
-  
-            text-align: justify;
-            font-size: 1px;
-            }
-    
-        .caja-de-preguntas-two{
-            height: 200px;
-        }
-  
-        .caja-de-preguntas-three{
-            height: auto;
-        }
+    .card-preguntas{
+      width: 100%;
+      height: 100%;
+      margin-top: 15%;
+      padding-bottom: 5%;
+      background-color: rgba(227, 202, 165, 0.5);
+      text-align: justify;
+      font-size: 18px;
+      margin-left: 1%;
     }
-    .buttom{
-        margin-left: 40%;
-    }
+  
+  
     .footer{
-        background-color: #CEAB93;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding-top: -5px;
-        @include sizes (320px, 400px);
-        .footer__name{
-            margin-top: -24px;
-            margin-left: 10px;
-            
-            height: 50px;
-            width: 70px;
-            background-color: #CEAB93; 
-    
-        }
+      background-color: #CEAB93;
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: 100%;
+  
     }
-    .col{
-        background-color: #CEAB93;
-
-        .h3{
-            text-decoration: underline;
-            font-size: 5px;
-            padding-left: 15px;
-        }
-        .item-one{
-            background-color: #CEAB93;
-        }
-    
-        .item-two{
-            background-color: #CEAB93;
-            height: fit-content;
-        }
+    .footer__name{
+      margin-top: -20px;
+      margin-left: 10px;
+      
+      height: 40px;
+      width: 120px;
+    }
+    .logo{
+      margin-top: -40px;
     }
     
-}
+    .h3{
+      text-decoration: underline;
+      margin-left: 5%;
+      background-color: #CEAB93;
+      font-size: 5px;
+    }
+    .item-one{
+      background-color: #CEAB93;
+      text-decoration: none;
+      font-size: 3px;
+    }
+  
+    
+    .item-two{
+      background-color: #CEAB93;
+      font-size: 3px; 
+      padding-right: -15%;
+    }}

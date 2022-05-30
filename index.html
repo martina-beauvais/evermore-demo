@@ -21,7 +21,7 @@
 <body> 
     <!--Parte visible del documento-->
     <!--Se han agregado solo unas pocas imágenes para mayor comprensión del wireframe-->
-    <header class="header ">
+    <header class="header">
        <div>
             <a class="nav__enlace" href="../index.html">
                 <img src="./imagenes/logo .png" width="60" height="60" alt="logo" class="header__logo" />
@@ -30,39 +30,58 @@
                 <img src="./imagenes/evermore.png" width="50" height="150" alt="name" class="header__name" />
             </a>   
         </div>
-      
-      <nav class="navbar sticky-top navbar-expand-lg navbar-light fixed-top">
-           
-           <!--Barra de Navegación-->
-           <div class="container-fluid">
-               <a class="navbar-brand" href="#navbar"></a>
-               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
-                 <span class="navbar-toggler-icon"></span>
-               </button>
-              <div class="collapse navbar-collapse" id="navbar">
-                  <ul class="navbar-nav ms-right">
-                     <li class="nav-item">
-                         <a class="nav-link" href="">Inicio</a>
-                     </li>
-                     <li class="nav-item">
-                         <a class="nav-link" href="./pages/cafeteria.html">Cafetería</a>
-                     </li>
-                     <li class="nav-item">
-                         <a class="nav-link" href="./pages/libreria.html">Librería</a>
-                     </li>
-                     <li class="nav-item">
-                         <a class="nav-link" href="./pages/preguntas-frecuentes.html">Preguntas Frecuentes</a>
-                     </li>
-                     <li class="nav-item">
-                         <a class="nav-link" href="./pages/mi-cuenta.html">Mi cuenta</a>
-                     </li>
-                   </ul>
-                   <form>
-                        <label for="texto"></label>
-                        <input type="texto" id="texto" placeholder="Buscar" class="--Buscar"> 
-                    </form> 
-               </div>
-          </div>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#navbar"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                            <a class="nav__enlace" href="../index.html">
+                                <img src="./imagenes/evermore.png" width="50" height="150" alt="name" class="header__name" />
+                            </a> 
+                        </h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">
+                                    Inicio
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/cafeteria.html">
+                                    Cafetería
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/libreria.html">
+                                    Librería
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/preguntas-frecuentes.html">
+                                    Preguntas Frecuentes
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/mi-cuenta.html">
+                                    Mi cuenta
+                                </a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-dark" type="submit">
+                                Search
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -106,6 +125,7 @@
                         <p class="card-text">Nuestra cafetería posee una amplia variedad de bebidas, 
                             bocdillos y postres. Cuenta con variedades veganas, sin T.A.C.C., entre 
                             otras cosas. 
+                            <br>
                             <br> Podrás acceder a la cafetería de modo virtual y ordenar por 
                             aquel medio. Se te pedirá que nos indiques cuál es tu mesa y, tras cumplir 
                             el tiempo de espera, se alcanzará hasta la mesa que nos haz asignado. 
@@ -123,10 +143,10 @@
                         <p class="card-text">Nuestra librería cuenta con libros en físico 
                             (ya sea para su compra o lectura dentro del local), en formato 
                             ebook y en audiolibros. 
-                            <br> Si no deseas comprarlo, podrás reservarlo 
-                            través de nuestra plataforma web y luego retirarlo para leer. 
+                            <br>
                             <br> Si deseas comprarlo, puedes hacerlo tanto en nuestro local
-                            como por nuestra plataforma.
+                            como por nuestra plataforma. En cambio, si eso no es lo no que buscas hacer, podrás reservarlo 
+                            través de nuestra plataforma web y luego retirarlo para leer. 
                         </p>
                         <div class="submit">
                             <a class="btn btn-outline-dark" href="../pages/libreria.html" >Librería</a>
@@ -338,7 +358,7 @@
                       </div>
                    </div>  
                </div>
-               <div class="d-grid gap-2 col-1 mx-auto">
+               <div class="d-grid gap-1 col-2 mx-auto">
                   <button class="btn btn-outline-dark" type="button" href="../pages/libreria.html">Ver más</button>
                </div>
             </div>
@@ -350,9 +370,8 @@
             <img src="../imagenes/evermore.png" width="50" height="150" alt="name" class="footer__name">
             <img src="../imagenes/logo .png" width="60" height="60" alt="logo" class="logo">
         </div>
-        
-       <div class="row align-items-center">
-            <div class="col">
+        <div class="row align-items-center">
+            <div class="col col-6">
                 <h3 class="h3">Explora</h3>
                 <dt>
                   <dd class="item-one">
@@ -370,7 +389,7 @@
                   <dd class="item-one">
                         <a href="./pages/preguntas-frecuentes.html" class="footer__nav">
                             <i class="bi bi-patch-question-fill"></i> 
-                            Preguntas Frecuentes
+                            Preg. Frec.
                         </a>
                   </dd>
                   <dd class="item-one">
@@ -381,7 +400,7 @@
                   </dd>
                 </dt>
             </div>
-            <div class="col">
+            <div class="col col-6">
                 <h3 class="h3">Contacto</h3>
                 <!--Rutas externas-->
                 <dt>
@@ -411,7 +430,7 @@
                     </dd>
                 </dt>
             </div>
-      </div>
+        </div>
        <div class="copyright">
             &copy; 2022 evermore 
        </div>

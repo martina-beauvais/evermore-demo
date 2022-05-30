@@ -26,48 +26,59 @@
                 <img src="../imagenes/evermore.png" width="50" height="150" alt="name" class="header__name" />
             </a>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light">
-           
-            <!--Barra de Navegación-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"></a>
-                <button
-                   class="navbar-toggler"
-                   type="button"
-                   data-bs-toggle="collapse"
-                   data-bs-target="#navbar"
-                 >
-                  <span class="navbar-toggler-icon"></span>
+                <a class="navbar-brand" href="#navbar"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-               <div class="collapse navbar-collapse" id="navbar">
-                   <ul class="navbar-nav ms-right">
-                      <li class="nav-item">
-                          <a class="nav-link" href="../index.html">Inicio</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="./cafeteria.html">Cafetería</a>
- 
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="./libreria.html">Librería</a>
- 
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="./preguntas-frecuentes.html">Preguntas Frecuentes</a>
- 
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="./mi-cuenta.html">Mi cuenta</a>
- 
-                      </li>
-                    </ul>
-                    <form>
-                    <label for="texto"></label>
-                    <input type="texto" id="texto" placeholder="Buscar" class="--Buscar"> 
-                </form>  
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                            <a class="nav__enlace" href="../index.html">
+                                <img src="../imagenes/evermore.png" width="50" height="150" alt="name" class="header__name" />
+                            </a> 
+                        </h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">
+                                    Inicio
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/cafeteria.html">
+                                    Cafetería
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="../pages/libreria.html">
+                                    Librería
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/preguntas-frecuentes.html">
+                                    Preguntas Frecuentes
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/mi-cuenta.html">
+                                    Mi cuenta
+                                </a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-dark" type="submit">
+                                Search
+                            </button>
+                        </form>
+                    </div>
                 </div>
-           </div>
-         </nav>
+            </div>
+        </nav>
     </header>
     <main>
         <!--Sección 1 - banner-->
@@ -250,43 +261,39 @@
         </div>
     
         <div class="row align-items-center">
-          <div class="col">
-             <h3 class="h3">Explora</h3>
-             <dt>
-                <dd class="item-one">
-                    <a href="./pages/cafeteria.html" class="footer__nav">
-                        <i class="bi bi-cup-fill"> 
+            <div class="col col-6">
+                <h3 class="h3">Explora</h3>
+                <dt>
+                  <dd class="item-one">
+                        <a href="../pages/cafeteria.html" class="footer__nav">
+                            <i class="bi bi-cup-fill"></i>
                             Cafetería
-                        </i>
-                    </a>
-              </dd>
-              <dd class="item-one">
-                  <a href="./pages/libreria.html" class="footer__nav">
-                        <i class="bi bi-book-half">
+                        </a>
+                  </dd>
+                  <dd class="item-one">
+                      <a href="../pages/libreria.html" class="footer__nav">
+                            <i class="bi bi-book-half"></i>
                             Librería
-                        </i>
-                    </a>
-              </dd>
-              <dd class="item-one">
-                    <a href="./pages/preguntas-frecuentes.html" class="footer__nav">
-                        <i class="bi bi-patch-question-fill">
-                            Preguntas Frecuentes
-                        </i>
-                    </a>
-              </dd>
-              <dd class="item-one">
-                    <a href="./pages/mi-cuenta.html" class="footer__nav">
-                        <i class="bi bi-person-circle">
+                        </a>
+                  </dd>
+                  <dd class="item-one">
+                        <a href="../pages/preguntas-frecuentes.html" class="footer__nav">
+                            <i class="bi bi-patch-question-fill"></i> 
+                            Preg. Frec.
+                        </a>
+                  </dd>
+                  <dd class="item-one">
+                        <a href="../pages/mi-cuenta.html" class="footer__nav">
+                            <i class="bi bi-person-circle"></i>
                             Mi cuenta
-                        </i>
-                    </a>
-              </dd>
-             </dt>
-          </div>
-          <div class="col">
-               <h3 class="h3">Contacto</h3>
-               <!--Rutas externas-->
-                <dt class="items">
+                        </a>
+                  </dd>
+                </dt>
+            </div>
+            <div class="col col-6">
+                <h3 class="h3">Contacto</h3>
+                <!--Rutas externas-->
+                <dt>
                     <dd class="item-two">
                         <a target="_blank" href="https://mail.google.com/mail/u/0/?pli=1" class="footer__nav">
                             <i class="bi bi-envelope-fill"></i>
@@ -312,8 +319,8 @@
                         </a>
                     </dd>
                 </dt>
-          </div>
-       </div>
+            </div>
+        </div>
         <div class="copyright">
             &copy; 2022 evermore 
        </div>

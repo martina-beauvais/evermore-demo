@@ -25,53 +25,60 @@
                 <img src="../imagenes/evermore.png" class="header__name" />
             </a>
         </div>
-
         
-        
-        <nav class="navbar navbar-expand-lg navbar-light">
-           
-            <!--Barra de Navegación-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#navbar"></a>
-                <button
-                   class="navbar-toggler"
-                   type="button"
-                   data-bs-toggle="collapse"
-                   data-bs-target="#navbar"
-                 >
-                  <span class="navbar-toggler-icon"></span>
+                <a class="navbar-brand" href="#navbar"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-               <div class="collapse navbar-collapse" id="navbar">
-                   <ul class="navbar-nav ms-right">
-                      <li class="nav-item">
-                          <a class="nav-link" href="../index.html">Inicio</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="./cafeteria.html">Cafetería</a>
- 
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="./libreria.html">Librería</a>
- 
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="./preguntas-frecuentes.html">Preguntas Frecuentes</a>
- 
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="./mi-cuenta.html">Mi cuenta</a>
- 
-                      </li>
-                    </ul>
-                    <form>
-                        <label for="texto"></label>
-                        <input type="texto" id="texto" placeholder="Buscar" class="--Buscar"> 
-                    </form>  
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                            <a class="nav__enlace" href="../index.html">
+                                <img src="../imagenes/evermore.png" width="50" height="150" alt="name" class="header__name" />
+                            </a> 
+                        </h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="../index.html">
+                                    Inicio
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/cafeteria.html">
+                                    Cafetería
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/libreria.html">
+                                    Librería
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="../pages/preguntas-frecuentes.html">
+                                    Preguntas Frecuentes
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/mi-cuenta.html">
+                                    Mi cuenta
+                                </a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-dark" type="submit">
+                                Search
+                            </button>
+                        </form>
+                    </div>
                 </div>
-                <!--Buscar producto-->
-                
-           </div>
-         </nav>
+            </div>
+        </nav>
     </header>
     <main>
         <section>
@@ -94,7 +101,7 @@
                     <i>Evermore</i> es un bookstore and cafe, creando con el fin de promocionar 
                     un ambiente agradable y relajante entre amantes del café y una buena lectura. 
                     Nuestro equipo se encuentra completamente capacitado para una atención completa
-                    y eficaz, desde elegir un libro hasta una buena bebida o snack.
+                    y eficaz, desde sugerir un libro hasta una buena bebida o snack.
                   </p>
                 </div>
             </div>
@@ -108,10 +115,10 @@
                 </div>
                 <div class="card-body text-dark">
                   <p class="card-text">
-                    <i>¡Por supuesto que no!</i> Si deseas leer algo, pero no quieres leer en 
+                    <i>¡Por supuesto que no!</i> Si buscas leer algo, pero no deseas leer en 
                     físico, puedes comprar nuestros <i>audiolibros</i> o <i>ebooks</i>. Incluso
                     puedes pedir prestado uno de los libros que se ofrecen en la tienda. Eso sí, 
-                    debes pedirlo con anticipación antes de que otra persona lo haga.
+                    debes encargarlo con anticipación antes de que otra persona lo haga.
                   </p>
                 </div>
             </div>
@@ -125,8 +132,8 @@
                 </div>
                 <div class="card-body text-dark">
                   <p class="card-text">
-                    <i>¡Por supuesto que no!</i> El cliente puede decidir si quedarse o no.
-                     Al igual que qué quiere comprar.
+                    <i>¡Por supuesto que no!</i> El cliente puede decidir si quedarse dentro del local o no.
+                     Al igual que lo que busca consumir.
                   </p>
                 </div>
             </div>
@@ -144,43 +151,39 @@
         </div>
     
         <div class="row align-items-center">
-          <div class="col">
-             <h3 class="h3">Explora</h3>
-             <dt>
-                <dd class="item-one">
-                    <a href="./pages/cafeteria.html" class="footer__nav">
-                        <i class="bi bi-cup-fill"> 
+            <div class="col col-6">
+                <h3 class="h3">Explora</h3>
+                <dt>
+                  <dd class="item-one">
+                        <a href="../pages/cafeteria.html" class="footer__nav">
+                            <i class="bi bi-cup-fill"></i>
                             Cafetería
-                        </i>
-                    </a>
-              </dd>
-              <dd class="item-one">
-                  <a href="./pages/libreria.html" class="footer__nav">
-                        <i class="bi bi-book-half">
+                        </a>
+                  </dd>
+                  <dd class="item-one">
+                      <a href="../pages/libreria.html" class="footer__nav">
+                            <i class="bi bi-book-half"></i>
                             Librería
-                        </i>
-                    </a>
-              </dd>
-              <dd class="item-one">
-                    <a href="./pages/preguntas-frecuentes.html" class="footer__nav">
-                        <i class="bi bi-patch-question-fill">
-                            Preguntas Frecuentes
-                        </i>
-                    </a>
-              </dd>
-              <dd class="item-one">
-                    <a href="./pages/mi-cuenta.html" class="footer__nav">
-                        <i class="bi bi-person-circle">
+                        </a>
+                  </dd>
+                  <dd class="item-one">
+                        <a href="../pages/preguntas-frecuentes.html" class="footer__nav">
+                            <i class="bi bi-patch-question-fill"></i> 
+                            Preg. Frec.
+                        </a>
+                  </dd>
+                  <dd class="item-one">
+                        <a href="../pages/mi-cuenta.html" class="footer__nav">
+                            <i class="bi bi-person-circle"></i>
                             Mi cuenta
-                        </i>
-                    </a>
-              </dd>
-             </dt>
-          </div>
-          <div class="col">
-               <h3 class="h3">Contacto</h3>
-               <!--Rutas externas-->
-                <dt class="items">
+                        </a>
+                  </dd>
+                </dt>
+            </div>
+            <div class="col col-6">
+                <h3 class="h3">Contacto</h3>
+                <!--Rutas externas-->
+                <dt>
                     <dd class="item-two">
                         <a target="_blank" href="https://mail.google.com/mail/u/0/?pli=1" class="footer__nav">
                             <i class="bi bi-envelope-fill"></i>
@@ -205,8 +208,9 @@
                             WhatsApp
                         </a>
                     </dd>
-          </div>
-       </div>
+                </dt>
+            </div>
+        </div>
         <div class="copyright">
             &copy; 2022 evermore 
        </div>

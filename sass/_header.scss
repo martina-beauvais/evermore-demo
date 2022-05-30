@@ -1,11 +1,9 @@
-.header{ 
-    position: fixed;
-    width: 1349px;
-    height: 70px;
+.header{
     justify-content: space-between;
     display: inline-flex;
-
-    background-image: linear-gradient(#AD8B73, #CEAB93, #E3CAA5); 
+    background-image: linear-gradient(#AD8B73, #CEAB93, #E3CAA5);
+    position:fixed;
+    @include sizes(100%, 70px);
     div{
         a{
             
@@ -27,19 +25,23 @@
     nav{
         div{
             div{
-                #navbar{
-                padding-left: 50px;
-                font-weight: bolder;
+                #offcanvasNavbar{
+                    padding-left: 50px;
+                    font-weight: bolder;
 
-                ul{
-                    list-style: none;
+                    ul{
+                        list-style: none;}
                 }
-                }
- 
-
+                
+                  
             }
-            
         }
-        
     }
+
+}
+#offcanvasNavbar{
+    font-family: 'BIZ UDPMincho', serif;
+    font-size: larger;
+    margin-top: 5px;
+    padding-right: 10px
 }

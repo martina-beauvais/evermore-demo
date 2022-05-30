@@ -1,25 +1,23 @@
 main{
-    @include sizes(1349px,auto) ;
-
-    background-color: #FFFBE9;
+    background-color: #FFFBE9; 
 }
 .banner{
     padding-top: 20px;
-    padding-left: 350px;
+    margin-left: 30%;
     margin-bottom: 50px;
 
     .h2{
-    padding-top: 90px;
-    padding-bottom: 0px;
-    margin-left: 0px;
-    font-style: italic;
+        padding-top: 90px;
+        padding-bottom: 0px;
+        margin-left: -10%;
+        font-style: italic;
     }
     .zoom{
-        transform: .2s ease-in-out;
+        transform: .1s;    
     }
     
     .zoom:hover{
-        transform: scale(1.1);
+        transform: scale(1.1);    
     }
 }
 .evermore{
@@ -30,11 +28,15 @@ main{
     }
 }
 
-.card{
+.card-banner{
     margin-top: 30px;
-    margin-bottom: 50px;
-    align-content: center;
-    background-color: rgba(227,202,165,0.5);
+    margin-bottom: 50px; 
+    align-items: center;
+    
+    .card-body{
+        background-color: rgba(227, 202, 165, 0.5);
+        margin-left: 0%;
+    }
 
     .card-title{
         text-align: center;
@@ -42,10 +44,12 @@ main{
     }
     .card-text{
         text-align: justify;
+        font-size: 20px;
     }
     .submit-i{
         width: 115px;
         background-color: #CEAB93;
+        align-items: flex-end;
     }
     .submit-c{
         width: 83px;
@@ -89,15 +93,14 @@ main{
         }
         .card-subtitle{
             text-align: center;
-        }
-            
+        } 
         p{
             text-decoration:solid; 
         }            
         .submit-coffee{
             width: 83px;
             background-color: #CEAB93;
-            margin-left: 0px;
+            margin-left: 85px;
         }
     }
 }
@@ -116,7 +119,7 @@ main{
 .d-grid{  
     padding-bottom: 50px;
     padding-top: 50px;
-    text-align: center;
+    align-items: center;
 
 }
 

@@ -1,46 +1,42 @@
 .footer{
-    background-color: #CEAB93; 
+    background-color: #CEAB93;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    @include sizes(1349px, auto);
-    .footer__name{
-        margin-top: -24px;
+    padding: top;
+    @include sizes(100%, auto);
+    .footer__name {
+        margin-top: -2%;
         margin-left: 10px;
-        
         height: 50px;
-        width: 150px;
-        background-color: #CEAB93; 
-
-    }
-    .logo{    
+        width: 150px; }
+    .logo {
         height: 60px;
         width: 60px;
-        margin-top: -30px;
-        margin-right: 10px;
-        background-color: #CEAB93; 
-
-    }
+        margin-top: -3%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        margin-right: 10px; }
 }
 
 .col{
     background-color: #CEAB93;
-
+    width: 100%;
     .h3{
         background-color: #CEAB93;
         text-decoration: underline;
         font-size: 30px;
-        padding-left: 20px;
-    }
+        margin-left: 10%;}
     .item-one{
-        padding-left: 50px;
         background-color: #CEAB93;
+        font-size: 19px;
+        text-align: justify; 
+        margin-left: 5%;
         
                     
         .footer__nav{
             @include footer__nav;
-
-
             .bi-envelope-fill{
                 color: white;
             }
@@ -56,16 +52,16 @@
         }
     }
     .item-two{
-        padding-left: 50px;
+        font-size: 19px;
+        margin-left: 5%;
                 
         .footer__nav{
             @include footer__nav;
-
         }
     }
 }  
 .copyright{
-    background-color: #CEAB93; 
+    background-color: #CEAB93;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 10px;
@@ -78,7 +74,6 @@
 @mixin sizes($width, $height) {
     width: $width;
     height: $height;
-    background-color: #CEAB93;
 } 
 
 $redes:(

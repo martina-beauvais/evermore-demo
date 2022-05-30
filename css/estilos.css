@@ -39,12 +39,11 @@ main {
 
 .banner {
   padding-top: 20px;
-  margin-left: 30%;
+  margin-left: 20%;
   margin-bottom: 50px; }
   .banner .h2 {
     padding-top: 90px;
     padding-bottom: 0px;
-    margin-left: -10%;
     font-style: italic; }
   .banner .zoom {
     transform: .1s; }
@@ -245,7 +244,6 @@ main {
   .banner {
     padding-top: 70px;
     padding-bottom: 30px;
-    padding-left: 25%;
     font-style: italic;
     font-size: 20px; }
   .zoom {
@@ -256,8 +254,6 @@ main {
     margin-top: 10px;
     margin-bottom: 20px;
     width: auto; }
-  .card-coffee {
-    margin-left: -10%; }
   .buttom {
     margin-left: 40%;
     margin-top: 50px;
@@ -268,7 +264,6 @@ main {
   #registrar {
     margin-left: -0%; }
   .footer {
-    min-width: 1200px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -276,17 +271,17 @@ main {
   .h3 {
     text-decoration: underline;
     font-size: 30px;
-    padding-left: 35%;
+    padding-left: 25%;
     justify-content: space-between; }
   .item-one {
-    padding-left: 40%;
+    padding-left: 30%;
     width: auto;
     background-color: #CEAB93;
     display: flex;
     flex-direction: row;
     justify-content: space-between; }
   .item-two {
-    padding-left: 40%;
+    padding-left: 30%;
     width: auto;
     background-color: #CEAB93;
     display: flex;

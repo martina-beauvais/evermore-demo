@@ -299,10 +299,16 @@ main {
     justify-content: space-between;
     min-width: 992px;
     width: 100%; }
+  #offcanvasNavbar{
+    font-family: 'BIZ UDPMincho', serif;
+    font-size: medium;
+    margin-top: 5px;
+    padding-right: 10px}
+    
   .banner {
     padding-top: 70px;
     padding-bottom: 30px;
-    padding-left: 10%;
+    margin-left: 10%;
     font-style: italic;
     font-size: 20px; }
   .banner__imagen{
@@ -377,7 +383,7 @@ main {
     font-weight: bolder; }
   .banner {
     padding-top: 20px;
-    padding-left: 6%;
+    margin-left: 6%;
     margin-bottom: 50px; }
   .banner__imagen {
     height: 90%;
@@ -481,7 +487,7 @@ main {
     width: 100%; }
   .banner {
     padding-top: 20px;
-    padding-left: 5%;
+    margin-left: 5%;
     margin-bottom: 50px; }
   .banner__imagen {
     height: 250px;
@@ -603,7 +609,7 @@ main {
 
   .banner{
       padding-top: 20px;
-      padding-left: 1%;
+      margin-left: -0%;
       margin-bottom: 50px;
   }
 
